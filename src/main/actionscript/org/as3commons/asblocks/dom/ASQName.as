@@ -116,7 +116,8 @@ public class ASQName
 			localName = data;
 		}
 	}
-
+	
+	//TODO (mschmalle) fix this name
 	public static function int2ASQName(packageName:String, localName:String):ASQName
 	{
 		var o:ASQName = new ASQName(null);
@@ -124,7 +125,8 @@ public class ASQName
 		o.localName = localName;
 		return o;
 	}
-
+	
+	//TODO (mschmalle) fix this name
 	public static function int3ASQName(packageName:String, localName:String, fragmentName:String):ASQName
 	{
 		var o:ASQName = new ASQName(null);
@@ -133,7 +135,8 @@ public class ASQName
 		o.fragmentName = fragmentName;
 		return o;
 	}
-
+	
+	//TODO (mschmalle) fix this name
 	public static function int4ASQName(packageName:String, localName:String, fragmentName:String,
 			fragmentType:String):ASQName
 	{

@@ -24,8 +24,8 @@ package org.as3commons.asblocks.dom
  * A <code>CONFIG::ident {}</code>.
  * 
  * <pre>
- * IASBlock block = factory.newBlock();
- * IASConfigStatement config = block.parseNewConfig("debug");
+ * var block:IASBlock = factory.newBlock();
+ * var config:IASConfigStatement = block.parseNewConfig("debug");
  * config.parseStatement("trace('debug compiler')");
  * </pre>
  * 
@@ -42,8 +42,8 @@ package org.as3commons.asblocks.dom
  * @copyright Teoti Graphix, LLC
  * @since 1.0
  * 
- * @see org.as3commons.asblocks.dom.IStatementContainer#parseNewConfig(String)
- * @see org.as3commons.asblocks.dom.IStatementContainer#newConfig(String)
+ * @see org.as3commons.asblocks.dom.IStatementContainer#parseNewConfig()
+ * @see org.as3commons.asblocks.dom.IStatementContainer#newConfig()
  */
 public interface IASConfigStatement extends IASStatement, IStatementContainer
 {

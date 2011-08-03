@@ -25,8 +25,8 @@ package org.as3commons.asblocks.dom
  * <code>break myLoop;</code>.
  * 
  * <pre>
- * IASBlock block = factory.newBlock();
- * IASBreakStatement bs = block.newBreak();
+ * var block:IASBlock = factory.newBlock();
+ * var bs:IASBreakStatement = block.newBreak();
  * </pre>
  * 
  * <p>Will produce;</p>
@@ -37,8 +37,8 @@ package org.as3commons.asblocks.dom
  * </pre>
  * 
  * <pre>
- * IASBlock block = factory.newBlock();
- * IASBreakStatement bs = block.newBreak("myLoop");
+ * var block:IASBlock = factory.newBlock();
+ * var bs:IASBreakStatement = block.newBreak("myLoop");
  * </pre>
  * 
  * <p>Will produce;</p>
@@ -53,7 +53,6 @@ package org.as3commons.asblocks.dom
  * @since 1.0
  * 
  * @see org.as3commons.asblocks.dom.IStatementContainer#newBreak()
- * @see org.as3commons.asblocks.dom.IStatementContainer#newBreak(String)
  */
 public interface IASBreakStatement extends IASStatement
 {

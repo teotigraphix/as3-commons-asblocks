@@ -29,7 +29,7 @@ package org.as3commons.asblocks.dom
  * @since 1.0
  * 
  * @see org.as3commons.asblocks.dom.IASMethod#getAccessorRole()
- * @see org.as3commons.asblocks.dom.IASMethod#setAccessorRole(AccessorRole)
+ * @see org.as3commons.asblocks.dom.IASMethod#setAccessorRole()
  */
 public final class AccessorRole
 {

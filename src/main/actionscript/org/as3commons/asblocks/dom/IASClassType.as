@@ -27,10 +27,10 @@ import org.as3commons.collections.framework.IList;
  * and public members of the <code>class</code> type.
  * 
  * <pre>
- * ASFactory factory = new ASFactory();
- * IASProject project = new ASProject(factory);
- * IASCompilationUnit unit = project.newClass("my.domain.ClassType");
- * IASClassType type = (IASClassType) unit.getType();
+ * var factory:ASFactory = new ASFactory();
+ * var project:IASProject = new ASProject(factory);
+ * var unit:IASCompilationUnit = project.newClass("my.domain.ClassType");
+ * var type:IASClassType = (IASClassType) unit.getType();
  * </pre>
  * 
  * <p>Will produce;</p>
@@ -45,8 +45,8 @@ import org.as3commons.collections.framework.IList;
  * @copyright Teoti Graphix, LLC
  * @since 1.0
  * 
- * @see org.as3commons.asblocks.ASFactory#newClass(String)
- * @see org.as3commons.asblocks.IASProject#newClass(String)
+ * @see org.as3commons.asblocks.ASFactory#newClass()
+ * @see org.as3commons.asblocks.IASProject#newClass()
  * @see org.as3commons.asblocks.dom.IASCompilationUnit
  */
 public interface IASClassType extends IASType, IASContentBlock, IASFieldAware
@@ -108,7 +108,7 @@ public interface IASClassType extends IASType, IASContentBlock, IASFieldAware
 	 * property to <code>null</code> or <code>""</code>, the type will completely
 	 * remove the <code>extends</code> keyword along with the name from the AST.</p>
 	 * 
-	 * @see #setSuperClass(String)
+	 * @see #setSuperClass()
 	 */
 	function getSuperClass():String;
 
@@ -130,8 +130,8 @@ public interface IASClassType extends IASType, IASContentBlock, IASFieldAware
 	 * empty Vector is returned.</p>
 	 * 
 	 * @see #hasImplementations()
-	 * @see #addImplementedInterface(String)
-	 * @see #removeImplementedInterface(String)
+	 * @see #addImplementedInterface()
+	 * @see #removeImplementedInterface()
 	 */
 	function getImplementedInterfaces():IList;
 
@@ -142,8 +142,8 @@ public interface IASClassType extends IASType, IASContentBlock, IASFieldAware
 	 * any <code>IASInterfaceType</code>s.
 	 * 
 	 * @see #getImplementedInterfaces()
-	 * @see #addImplementedInterface(String)
-	 * @see #removeImplementedInterface(String)
+	 * @see #addImplementedInterface()
+	 * @see #removeImplementedInterface()
 	 */
 	function hasImplementations():Boolean;
 
@@ -162,7 +162,7 @@ public interface IASClassType extends IASType, IASContentBlock, IASFieldAware
 	 * @param name A <code>String</code> indicating the new implementation name.
 	 * @return A <code>Boolean</code> indicating whether the implementation was added.
 	 * 
-	 * @see #removeImplementedInterface(String)
+	 * @see #removeImplementedInterface()
 	 */
 	function addImplementedInterface(name:String):Boolean;
 
@@ -176,7 +176,7 @@ public interface IASClassType extends IASType, IASContentBlock, IASFieldAware
 	 * @param name A <code>String</code> indicating the new implementation name.
 	 * @return A <code>Boolean</code> indicating whether the implementation was added.
 	 * 
-	 * @see #addImplementedInterface(String)
+	 * @see #addImplementedInterface()
 	 */
 	function removeImplementedInterface(name:String):Boolean;
 }

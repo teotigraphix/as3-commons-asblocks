@@ -24,8 +24,8 @@ import flash.errors.IllegalOperationError;
 
 import org.antlr.runtime.Token;
 import org.as3commons.asblocks.impl.ASTUtils;
-import org.as3commons.asblocks.parser.antlr.as3.AS3Parser;
 import org.as3commons.asblocks.parser.antlr.LinkedListToken;
+import org.as3commons.asblocks.parser.antlr.as3.AS3Parser;
 import org.as3commons.collections.Map;
 import org.as3commons.collections.framework.IMap;
 

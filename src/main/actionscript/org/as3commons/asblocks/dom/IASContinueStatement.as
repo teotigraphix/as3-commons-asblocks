@@ -25,8 +25,8 @@ package org.as3commons.asblocks.dom
  * <code>continue myLoop;</code>.
  * 
  * <pre>
- * IASBlock block = factory.newBlock();
- * IASContinueStatement cs = block.newContinue();
+ * var block:IASBlock = factory.newBlock();
+ * var cs:IASContinueStatement = block.newContinue();
  * </pre>
  * 
  * <p>Will produce;</p>
@@ -37,8 +37,8 @@ package org.as3commons.asblocks.dom
  * </pre>
  * 
  * <pre>
- * IASBlock block = factory.newBlock();
- * IASContinueStatement cs = block.newContinue("myLoop");
+ * var block:IASBlock = factory.newBlock();
+ * var cs:IASContinueStatement = block.newContinue("myLoop");
  * </pre>
  * 
  * <p>Will produce;</p>
@@ -53,7 +53,6 @@ package org.as3commons.asblocks.dom
  * @since 1.0
  * 
  * @see org.as3commons.asblocks.dom.IStatementContainer#newContinue()
- * @see org.as3commons.asblocks.dom.IStatementContainer#newContinue(String)
  */
 public interface IASContinueStatement extends IASStatement
 {

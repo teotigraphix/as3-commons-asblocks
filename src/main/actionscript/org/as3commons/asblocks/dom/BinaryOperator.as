@@ -82,22 +82,22 @@ public final class BinaryOperator
 	public static var EQ:BinaryOperator = BinaryOperator.create("EQ");
 	
 	/**
-	 * The <code>>=</code> operator.
+	 * The <code>&gt;=</code> operator.
 	 */
 	public static var GE:BinaryOperator = BinaryOperator.create("GE");
 	
 	/**
-	 * The <code>></code> operator.
+	 * The <code>&gt;</code> operator.
 	 */
 	public static var GT:BinaryOperator = BinaryOperator.create("GT");
 	
 	/**
-	 * The <code<=</code> operator.
+	 * The <code&lt;=</code> operator.
 	 */
 	public static var LE:BinaryOperator = BinaryOperator.create("LE");
 	
 	/**
-	 * The <code><</code> operator.
+	 * The <code>&lt;</code> operator.
 	 */
 	public static var LT:BinaryOperator = BinaryOperator.create("LT");
 	
@@ -122,17 +122,17 @@ public final class BinaryOperator
 	public static var OR:BinaryOperator = BinaryOperator.create("OR");
 	
 	/**
-	 * The <code><<</code> operator.
+	 * The <code>&lt;&lt;</code> operator.
 	 */
 	public static var SL:BinaryOperator = BinaryOperator.create("SL");
 	
 	/**
-	 * The <code>>></code> operator.
+	 * The <code>&gt;&gt;</code> operator.
 	 */
 	public static var SR:BinaryOperator = BinaryOperator.create("SR");
 	
 	/**
-	 * The <code>>>></code> operator.
+	 * The <code>&gt;&gt;&gt;</code> operator.
 	 */
 	public static var SRU:BinaryOperator = BinaryOperator.create("SRU");
 	

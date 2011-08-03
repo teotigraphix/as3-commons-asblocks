@@ -24,14 +24,14 @@ package org.as3commons.asblocks.dom
  * A Boolean literal; <code>true</code> or <code>false</code>.
  * 
  * <pre>
- * IASBooleanLiteral bl = factory.newBooleanLiteral(true);
+ * var bl:IASBooleanLiteral = factory.newBooleanLiteral(true);
  * </pre>
  * 
  * <p>Will produce; <code>true</code>.</p>
  * 
  * <pre>
- * IASBooleanLiteral bl = factory.newBooleanLiteral(true);
- * bl.value = false;
+ * var bl:IASBooleanLiteral = factory.newBooleanLiteral(true);
+ * bl.setValue(false);
  * </pre>
  * 
  * <p>Will produce; <code>false</code>.</p>
@@ -40,7 +40,7 @@ package org.as3commons.asblocks.dom
  * @copyright Teoti Graphix, LLC
  * @since 1.0
  * 
- * @see org.as3commons.asblocks.ASFactory#newBooleanLiteral(boolean)
+ * @see org.as3commons.asblocks.ASFactory#newBooleanLiteral()
  */
 public interface IASBooleanLiteral extends IASLiteral
 {

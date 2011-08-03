@@ -24,9 +24,9 @@ package org.as3commons.asblocks.dom
  * A catch statement; <code>catch (e:Error) { }</code>.
  * 
  * <pre>
- * IASBlock block = factory.newBlock();
- * IASTryStatement statement = block.newTryFinally();
- * IASCatchClause cstatement = statement.newCatchClause("e", "Error");
+ * var block:IASBlock = factory.newBlock();
+ * var statement:IASTryStatement = block.newTryFinally();
+ * var cstatement:IASCatchClause = statement.newCatchClause("e", "Error");
  * </pre>
  * 
  * <p>Will produce;</p>
@@ -43,7 +43,7 @@ package org.as3commons.asblocks.dom
  * @copyright Teoti Graphix, LLC
  * @since 1.0
  * 
- * @see org.as3commons.asblocks.dom.IASTryStatement#newCatchClause(String, String)
+ * @see org.as3commons.asblocks.dom.IASTryStatement#newCatchClause()
  */
 public interface IASCatchClause extends IASStatement, IStatementContainer
 {

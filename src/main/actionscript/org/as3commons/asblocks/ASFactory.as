@@ -76,13 +76,13 @@ import org.as3commons.collections.framework.IList;
  * 
  * <pre>
  * // create a class unit with out the project overhead
- * ASFactory factory = new ASFactory();
- * IASCompilationUnit cunit = factory.newClass("foo.bar.Baz");
+ * var factory:ASFactory = new ASFactory();
+ * var cunit:IASCompilationUnit = factory.newClass("foo.bar.Baz");
  * // or create a class unit using the project
- * ASFactory factory = new ASFactory();
- * IASProject project = factory.newEmptyASProject(".");
+ * var factory:ASFactory = new ASFactory();
+ * var project:IASProject = factory.newEmptyASProject(".");
  * // creates and adds the compilation unit to the project
- * IASCompilationUnit cunit = project.newClass("foo.bar.Baz");
+ * var cunit:IASCompilationUnit = project.newClass("foo.bar.Baz");
  * </pre>
  * 
  * @author Michael Schmalle

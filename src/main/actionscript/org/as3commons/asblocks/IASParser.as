@@ -93,7 +93,7 @@ public interface IASParser
 	 * @throws org.as3commons.asblocks.ASBlocksSyntaxError
 	 * 
 	 * @since 1.0
-	 * @see #parseHighlevel(String)
+	 * @see #parseHighlevel()
 	 */
 	function parseHighlevelIn(reader:IReader):IASCompilationUnit;
 }

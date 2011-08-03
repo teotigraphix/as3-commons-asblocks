@@ -33,7 +33,7 @@ package org.as3commons.asblocks.dom
  * <p>Blocks are the foundation for nodes to hold <code>IASStatement</code>s.</p>
  * 
  * <pre>
- * IASBlock block = factory.newBlock();
+ * var block:IASBlock = factory.newBlock();
  * block.parseStatement("trace('foo')");
  * </pre>
  * 

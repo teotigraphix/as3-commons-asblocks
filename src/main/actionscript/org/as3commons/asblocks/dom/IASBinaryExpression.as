@@ -25,9 +25,9 @@ package org.as3commons.asblocks.dom
  * or <code>a + b;</code>.
  * 
  * <pre>
- * IASExpression left = factory.newExpression("a");
- * IASExpression right = factory.newExpression("b");
- * IASBinaryExpression expression = factory.newAndExpression(left, right);
+ * var left:IASExpression = factory.newExpression("a");
+ * var right:IASExpression = factory.newExpression("b");
+ * var expression:IASBinaryExpression = factory.newAndExpression(left, right);
  * </pre>
  * 
  * <p>Will produce <code>a && b</code>.</p>
@@ -38,25 +38,25 @@ package org.as3commons.asblocks.dom
  * 
  * @see org.as3commons.asblocks.dom.BinaryOperator
  * 
- * @see org.as3commons.asblocks.ASFactory#newAddExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newAndExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newBitAndExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newBitOrExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newBitXorExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newDivisionExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newEqualsExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newGreaterEqualsExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newGreaterThanExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newLessEqualsExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newLessThanExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newModuloExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newMultiplyExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newNotEqualsExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newOrExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newShiftLeftExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newShiftRightExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newShiftRightUnsignedExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newSubtractExpression(IASExpression, IASExpression)
+ * @see org.as3commons.asblocks.ASFactory#newAddExpression()
+ * @see org.as3commons.asblocks.ASFactory#newAndExpression()
+ * @see org.as3commons.asblocks.ASFactory#newBitAndExpression()
+ * @see org.as3commons.asblocks.ASFactory#newBitOrExpression()
+ * @see org.as3commons.asblocks.ASFactory#newBitXorExpression()
+ * @see org.as3commons.asblocks.ASFactory#newDivisionExpression()
+ * @see org.as3commons.asblocks.ASFactory#newEqualsExpression()
+ * @see org.as3commons.asblocks.ASFactory#newGreaterEqualsExpression()
+ * @see org.as3commons.asblocks.ASFactory#newGreaterThanExpression()
+ * @see org.as3commons.asblocks.ASFactory#newLessEqualsExpression()
+ * @see org.as3commons.asblocks.ASFactory#newLessThanExpression()
+ * @see org.as3commons.asblocks.ASFactory#newModuloExpression()
+ * @see org.as3commons.asblocks.ASFactory#newMultiplyExpression()
+ * @see org.as3commons.asblocks.ASFactory#newNotEqualsExpression()
+ * @see org.as3commons.asblocks.ASFactory#newOrExpression()
+ * @see org.as3commons.asblocks.ASFactory#newShiftLeftExpression()
+ * @see org.as3commons.asblocks.ASFactory#newShiftRightExpression()
+ * @see org.as3commons.asblocks.ASFactory#newShiftRightUnsignedExpression()
+ * @see org.as3commons.asblocks.ASFactory#newSubtractExpression()
  */
 public interface IASBinaryExpression extends IASExpression
 {

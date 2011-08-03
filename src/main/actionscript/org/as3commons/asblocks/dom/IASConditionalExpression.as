@@ -24,19 +24,19 @@ package org.as3commons.asblocks.dom
  * Conditional expression (ternary operator); <code>condition ? then : else</code>.
  * 
  * <pre>
- * IASExpression condition = factory.newExpression("foo");
- * IASExpression thenExp = factory.newExpression("bar");
- * IASExpression elseExp = factory.newExpression("baz");
- * IASConditionalExpression ce = factory.newConditionalExpression(condition, thenExp, elseExp);
+ * var condition:IASExpression = factory.newExpression("foo");
+ * var thenExp:IASExpression = factory.newExpression("bar");
+ * var elseExp:IASExpression = factory.newExpression("baz");
+ * var ce:IASConditionalExpression = factory.newConditionalExpression(condition, thenExp, elseExp);
  * </pre>
  * 
  * <p>Will produce; <code>foo ? bar : baz</code>.</p>
  * 
  * <pre>
- * IASExpression condition = factory.newExpression("foo");
- * IASExpression thenExp = factory.newExpression("bar");
- * IASExpression elseExp = factory.newExpression("baz");
- * IASConditionalExpression ce = factory.newConditionalExpression(condition, thenExp, elseExp);
+ * var condition:IASExpression = factory.newExpression("foo");
+ * var thenExp:IASExpression = factory.newExpression("bar");
+ * var elseExp:IASExpression = factory.newExpression("baz");
+ * var ce:IASConditionalExpression = factory.newConditionalExpression(condition, thenExp, elseExp);
  * ce.setCondition(factory.newExpression("foo < 42"));
  * ce.setThenExpression(factory.newExpression("foBar()"));
  * ce.setElseExpression(factory.newExpression("foBaz()"));
@@ -45,7 +45,7 @@ package org.as3commons.asblocks.dom
  * <p>Will produce; <code>foo < 42 ? foBar() : foBaz()</code>.</p>
  * 
  * <pre>
- * IASConditionalExpression ce = (IASConditionalExpression) factory.newExpression("foo ? bar : baz");
+ * var ce:IASConditionalExpression = factory.newExpression("foo ? bar : baz") as IASConditionalExpression;
  * </pre>
  * 
  * <p>Will produce an <code>IASConditionalExpression</code>.</p>
@@ -54,7 +54,7 @@ package org.as3commons.asblocks.dom
  * @copyright Teoti Graphix, LLC
  * @since 1.0
  * 
- * @see org.as3commons.asblocks.ASFactory#newConditionalExpression(IASExpression, IASExpression, IASExpression)
+ * @see org.as3commons.asblocks.ASFactory#newConditionalExpression()
  */
 public interface IASConditionalExpression extends IASExpression
 {

@@ -25,18 +25,18 @@ package org.as3commons.asblocks.dom
  * or <code>a -= b;</code>.
  * 
  * <pre>
- * IASExpression left = factory.newExpression("myAnswer");
- * IASExpression right = factory.newExpression("4");
- * IASAssignmentExpression expression = factory.newAssignmentExpression(left, right);
+ * var left:IASExpression = factory.newExpression("myAnswer");
+ * var right:IASExpression = factory.newExpression("4");
+ * var expression:IASAssignmentExpression = factory.newAssignmentExpression(left, right);
  * </pre>
  * 
  * <p>Will produce <code>myAnswer = 4</code>.</p>
  * 
  * <pre>
- * IASExpression left = factory.newExpression("myAnswer");
- * IASExpression right = factory.newExpression("4");
- * IASAssignmentExpression expression:IAssignmentExpression = factory.newAssignmentExpression(left, right);
- * expression.rightExpression = factory.newExpression("otherAnswer = 4");
+ * var left:IASExpression = factory.newExpression("myAnswer");
+ * var right:IASExpression = factory.newExpression("4");
+ * var expression:IAssignmentExpression = factory.newAssignmentExpression(left, right);
+ * expression.setRightExpression(factory.newExpression("otherAnswer = 4"));
  * </pre>
  * 
  * <p>Will produce <code>myAnswer = otherAnswer = 4</code>.</p>
@@ -47,18 +47,18 @@ package org.as3commons.asblocks.dom
  * 
  * @see org.as3commons.asblocks.dom.AssignmentOperator
  * 
- * @see org.as3commons.asblocks.ASFactory#newAssignExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newAddAssignExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newBitAndAssignExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newBitOrAssignExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newBitXorAssignExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newDivideAssignExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newModuloAssignExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newMultiplyAssignExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newShiftLeftAssignExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newShiftRightAssignExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newShiftRightUnsignedAssignExpression(IASExpression, IASExpression)
- * @see org.as3commons.asblocks.ASFactory#newSubtractAssignExpression(IASExpression, IASExpression)
+ * @see org.as3commons.asblocks.ASFactory#newAssignExpression()
+ * @see org.as3commons.asblocks.ASFactory#newAddAssignExpression()
+ * @see org.as3commons.asblocks.ASFactory#newBitAndAssignExpression()
+ * @see org.as3commons.asblocks.ASFactory#newBitOrAssignExpression()
+ * @see org.as3commons.asblocks.ASFactory#newBitXorAssignExpression()
+ * @see org.as3commons.asblocks.ASFactory#newDivideAssignExpression()
+ * @see org.as3commons.asblocks.ASFactory#newModuloAssignExpression()
+ * @see org.as3commons.asblocks.ASFactory#newMultiplyAssignExpression()
+ * @see org.as3commons.asblocks.ASFactory#newShiftLeftAssignExpression()
+ * @see org.as3commons.asblocks.ASFactory#newShiftRightAssignExpression()
+ * @see org.as3commons.asblocks.ASFactory#newShiftRightUnsignedAssignExpression()
+ * @see org.as3commons.asblocks.ASFactory#newSubtractAssignExpression()
  */
 public interface IASAssignmentExpression extends IASExpression
 {

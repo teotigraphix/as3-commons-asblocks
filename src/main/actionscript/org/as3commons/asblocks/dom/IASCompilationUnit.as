@@ -38,13 +38,13 @@ import org.as3commons.collections.framework.IList;
  * found with <code>getInnerTypes()</code> and <code>getInnerFunctions()</code>.</p>
  * 
  * <pre>
- * ASFactory factory = new ASFactory();
- * IASProject project = new ASProject(factory);
- * IASCompilationUnit unit = project.newClass("my.domain.ClassType");
- * IASClassType type = (IASClassType)unit.getType();
+ * var factory:ASFactory = new ASFactory();
+ * var project:IASProject = new ASProject(factory);
+ * var unit:IASCompilationUnit = project.newClass("my.domain.ClassType");
+ * var type:IASClassType = unit.getType() as IASClassType;
  * type.newMetaData("Bindable");
  * type.setDescription("A new class.");
- * IMethod method = type.newMethod("foo", Visibility.PUBLIC, "void");
+ * var method:IASMethod = type.newMethod("foo", Visibility.PUBLIC, "void");
  * </pre>
  * 
  * <p>Will produce;</p>
@@ -62,9 +62,9 @@ import org.as3commons.collections.framework.IList;
  * </pre>
  * 
  * <pre>
- * ASFactory factory = new ASFactory();
- * IASProject project = new ASProject(factory);
- * IASCompilationUnit unit = project.newInterface("my.domain.IInterfaceType");
+ * var factory:ASFactory = new ASFactory();
+ * var project:IASProject = new ASProject(factory);
+ * var unit:IASCompilationUnit = project.newInterface("my.domain.IInterfaceType");
  * </pre>
  * 
  * <p>Will produce;</p>
@@ -76,10 +76,10 @@ import org.as3commons.collections.framework.IList;
  * </pre>
  * 
  * <pre>
- * ASFactory factory = new ASFactory();
- * IASProject project = new ASProject(factory);
- * IASCompilationUnit unit = project.newFunction("my.domain.globalFunction", "String");
- * IASFunctionType ftype = (IASFunctionType)unit.getType();
+ * var factory:ASFactory = new ASFactory();
+ * var project:IASProject = new ASProject(factory);
+ * var unit:IASCompilationUnit = project.newFunction("my.domain.globalFunction", "String");
+ * var ftype:IASFunctionType = unit.getType() as IASFunctionType;
  * ftype.parseNewReturn("foo");
  * </pre>
  * 
@@ -93,9 +93,9 @@ import org.as3commons.collections.framework.IList;
  * </pre>
  * 
  * <pre>
- * ASFactory factory = new ASFactory();
- * IASProject project = new ASProject(factory);
- * IASCompilationUnit unit = project.newNamespace("my.domain.the_universe", "http://www.the.universe.com");
+ * var factory:ASFactory = new ASFactory();
+ * var project:IASProject = new ASProject(factory);
+ * var unit:IASCompilationUnit = project.newNamespace("my.domain.the_universe", "http://www.the.universe.com");
  * </pre>
  * 
  * <p>Will produce;</p>

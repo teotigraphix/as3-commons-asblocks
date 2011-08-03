@@ -45,8 +45,8 @@ public interface IASProject
 	/**
 	 * The <code>List</code> of <code>IASCompilationUnit</code>.
 	 * 
-	 * @see #addCompilationUnit(IASCompilationUnit)
-	 * @see #removeCompilationUnit(IASCompilationUnit)
+	 * @see #addCompilationUnit()
+	 * @see #removeCompilationUnit()
 	 * 
 	 * @since 1.0
 	 */
@@ -59,8 +59,8 @@ public interface IASProject
 	/**
 	 * The <code>List</code> of <code>String</code>.
 	 * 
-	 * @see #addClassPath(String)
-	 * @see #removeClassPath(String)
+	 * @see #addClassPath()
+	 * @see #removeClassPath()
 	 * 
 	 * @since 1.0
 	 */
@@ -69,8 +69,8 @@ public interface IASProject
 	/**
 	 * The <code>List</code> of <code>IResourceRoot</code>.
 	 * 
-	 * @see #addClassPath(String)
-	 * @see #removeClassPath(String)
+	 * @see #addClassPath()
+	 * @see #removeClassPath()
 	 * 
 	 * @since 1.0
 	 */
@@ -83,8 +83,8 @@ public interface IASProject
 	/**
 	 * The <code>List</code> of <code>String</code> source path entries.
 	 * 
-	 * @see #addSourcePath(String)
-	 * @see #removeSourcePath(String)
+	 * @see #addSourcePath()
+	 * @see #removeSourcePath()
 	 * 
 	 * @since 1.0
 	 */
@@ -93,8 +93,8 @@ public interface IASProject
 	/**
 	 * The <code>List</code> of <code>IResourceRoot</code> source path roots.
 	 * 
-	 * @see #addSourcePath(String)
-	 * @see #removeSourcePath(String)
+	 * @see #addSourcePath()
+	 * @see #removeSourcePath()
 	 * @see #getSourcePathEntries()
 	 * 
 	 * @since 1.0
@@ -161,7 +161,7 @@ public interface IASProject
 	 * added correctly.
 	 * 
 	 * @see #getCompilationUnits()
-	 * @see #removeCompilationUnit(IASCompilationUnit)
+	 * @see #removeCompilationUnit()
 	 * 
 	 * @since 1.0
 	 */
@@ -178,7 +178,7 @@ public interface IASProject
 	 * removed correctly.
 	 * 
 	 * @see #getCompilationUnits()
-	 * @see #addCompilationUnit(IASCompilationUnit)
+	 * @see #addCompilationUnit()
 	 * 
 	 * @since 1.0
 	 */
@@ -194,7 +194,7 @@ public interface IASProject
 	 * root files or swc.
 	 * @return A <code>boolean</code> indicating the success.
 	 * 
-	 * @see #removeClassPath(String)
+	 * @see #removeClassPath()
 	 * 
 	 * @since 1.0
 	 */
@@ -207,7 +207,7 @@ public interface IASProject
 	 * root files or swc.
 	 * @return A <code>boolean</code> indicating the success.
 	 * 
-	 * @see #addClassPath(String)
+	 * @see #addClassPath()
 	 * 
 	 * @since 1.0
 	 */
@@ -238,7 +238,7 @@ public interface IASProject
 	 * @param qualifiedName A <code>String</code> qualified name.
 	 * @return A new class <code>IASCompilationUnit</code>.
 	 * 
-	 * @see #addCompilationUnit(IASCompilationUnit)
+	 * @see #addCompilationUnit()
 	 * @see org.as3commons.asblocks.dom.IASCompilationUnit
 	 * @see org.as3commons.asblocks.dom.IASClassType
 	 * 
@@ -255,7 +255,7 @@ public interface IASProject
 	 * @param qualifiedName A <code>String</code> qualified name.
 	 * @return A new interface <code>IASCompilationUnit</code>.
 	 * 
-	 * @see #addCompilationUnit(IASCompilationUnit)
+	 * @see #addCompilationUnit()
 	 * @see org.as3commons.asblocks.dom.IASCompilationUnit
 	 * @see org.as3commons.asblocks.dom.IASInterfaceType
 	 * 

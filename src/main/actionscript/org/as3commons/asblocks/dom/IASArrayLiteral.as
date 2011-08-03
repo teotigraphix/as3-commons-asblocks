@@ -26,7 +26,7 @@ import org.as3commons.collections.framework.IList;
  * An Array literal; <code>[1,2,3]</code>.
  * 
  * <pre>
- * IASArrayLiteral al = factory.newArrayLiteral();
+ * var al:IASArrayLiteral = factory.newArrayLiteral();
  * al.add(factory.newNumberLiteral(1));
  * al.add(factory.newStringLiteral("two"));
  * al.add(factory.newNumberLiteral(3));
@@ -35,7 +35,7 @@ import org.as3commons.collections.framework.IList;
  * <p>Will produce; <code>[1,"two",3]</code>.</p>
  * 
  * <pre>
- * IASArrayLiteral al = factory.newArrayLiteral();
+ * var al:IASArrayLiteral = factory.newArrayLiteral();
  * al.add(factory.newNumberLiteral(1));
  * al.add(factory.newExpression("[a1,a2,a3]"));
  * al.add(factory.newNumberLiteral(3));

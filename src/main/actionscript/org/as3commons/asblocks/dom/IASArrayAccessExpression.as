@@ -25,17 +25,17 @@ package org.as3commons.asblocks.dom
  * [<code>subscript</code>].
  * 
  * <pre>
- * IASExpression target = factory.newExpression("foo");
- * IASExpression subscript = factory.newIntegerLiteral(42);
- * IASArrayAccessExpression aae = factory.newArrayAccessExpression(target, subscript);
+ * var target:IASExpression = factory.newExpression("foo");
+ * var subscript:IASExpression = factory.newIntegerLiteral(42);
+ * var aae:IASArrayAccessExpression = factory.newArrayAccessExpression(target, subscript);
  * </pre>
  * 
  * <p>Will produce; <code>foo[42]</code>.</p>
  * 
  * <pre>
- * IASExpression target = factory.newExpression("foo[42]");
- * IASExpression subscript = factory.newExpression("0");
- * IASArrayAccessExpression aae = factory.newArrayAccessExpression(target, subscript);
+ * var target:IASExpression = factory.newExpression("foo[42]");
+ * var subscript:IASExpression = factory.newExpression("0");
+ * var aae:IASArrayAccessExpression = factory.newArrayAccessExpression(target, subscript);
  * </pre>
  * 
  * <p>Will produce; <code>foo[42][0]</code>.</p>
@@ -44,7 +44,7 @@ package org.as3commons.asblocks.dom
  * @copyright Teoti Graphix, LLC
  * @since 1.0
  * 
- * @see org.as3commons.asblocks.ASFactory#newArrayAccessExpression(IASExpression, IASExpression)
+ * @see org.as3commons.asblocks.ASFactory#newArrayAccessExpression()
  */
 public interface IASArrayAccessExpression extends IASExpression
 {
