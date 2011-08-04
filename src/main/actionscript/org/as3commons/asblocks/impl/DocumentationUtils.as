@@ -370,6 +370,10 @@ public class DocumentationUtils
 
 				commentToken.text = "/**" + ASTUtils.stringifyNode(asdoc) + "*/";
 			}
+			else
+			{
+				
+			}
 			return;
 		}
 
@@ -394,9 +398,24 @@ public class DocumentationUtils
 		}
 		else
 		{
-			newDesc.appendToken(new LinkedListToken(ASDocParser.NL, newline));
+			var comment:String = "";
+			
 			asdoc.setChildWithTokens(0, newDesc);
-			commentToken.text = "/**" + ASTUtils.stringifyNode(asdoc) + "*/";
+			
+			// if has tags
+			if (asdoc.childCount > 1)
+			{
+				newDesc.appendToken(new LinkedListToken(ASDocParser.NL, newline));
+				comment = "/**" + ASTUtils.stringifyNode(asdoc) + "*/";
+			}
+			else
+			{
+				newline = newline.replace("* ", "*/");
+				newDesc.appendToken(new LinkedListToken(ASDocParser.NL, newline));
+				
+				comment = "/**" + ASTUtils.stringifyNode(asdoc);
+			}
+			commentToken.text = comment;
 		}
 	}
 

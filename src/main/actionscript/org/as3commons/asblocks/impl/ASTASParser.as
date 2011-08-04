@@ -52,7 +52,17 @@ public class ASTASParser implements IASParser
 	
 	public function parseHighlevel(source:String):IASCompilationUnit
 	{
-		return null;
+		var parser:AS3Parser = ASTUtils.parse(source);
+		parser.setHighlevelParse(true);
+		var ast:LinkedListTree;
+		try {
+			ast = AS3FragmentParser.tree(parser.compilationUnit());
+		} catch (e:RecognitionException) {
+			throw ASTUtils.buildSyntaxException(null, parser, e);
+		} finally {
+			parser.setHighlevelParse(false);
+		}
+		return new ASTASCompilationUnit(ast);
 	}
 	
 	public function parseHighlevelIn(reader:IReader):IASCompilationUnit
