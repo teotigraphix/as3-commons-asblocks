@@ -1,4 +1,4 @@
-// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g 2011-07-31 13:46:42
+// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g 2011-08-06 09:38:18
 package org.as3commons.asblocks.parser.antlr.asdoc {
 
     import org.as3commons.asblocks.parser.antlr.LinkedListToken;
@@ -47,31 +47,31 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                             DFA2_transition);
 
                 dfa3 = new DFA(this, 3,
-                            "()* loopback of 97:3: ( textLineContent )*",
+                            "()* loopback of 96:18: ( textLineContent )*",
                             DFA3_eot, DFA3_eof, DFA3_min,
                             DFA3_max, DFA3_accept, DFA3_special,
                             DFA3_transition);
 
                 dfa6 = new DFA(this, 6,
-                            "102:1: textLineStart : ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT );",
+                            "100:1: textLineStart : ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT );",
                             DFA6_eot, DFA6_eof, DFA6_min,
                             DFA6_max, DFA6_accept, DFA6_special,
                             DFA6_transition, DFA6_specialStateTransition);
 
                 dfa7 = new DFA(this, 7,
-                            "107:1: textLineContent : ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT | ATWORD );",
+                            "105:1: textLineContent : ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT | ATWORD );",
                             DFA7_eot, DFA7_eof, DFA7_min,
                             DFA7_max, DFA7_accept, DFA7_special,
                             DFA7_transition, DFA7_specialStateTransition);
 
                 dfa9 = new DFA(this, 9,
-                            "()* loopback of 127:4: ( textLineContent )*",
+                            "()* loopback of 125:4: ( textLineContent )*",
                             DFA9_eot, DFA9_eof, DFA9_min,
                             DFA9_max, DFA9_accept, DFA9_special,
                             DFA9_transition);
 
                 dfa10 = new DFA(this, 10,
-                            "()* loopback of 128:8: ( textLine )*",
+                            "()* loopback of 126:8: ( textLine )*",
                             DFA10_eot, DFA10_eof, DFA10_min,
                             DFA10_max, DFA10_accept, DFA10_special,
                             DFA10_transition);
@@ -88,7 +88,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
         }
 
         public override function get tokenNames():Array { return ASDocParser.tokenNames; }
-        public override function get grammarFileName():String { return "C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g"; }
+        public override function get grammarFileName():String { return "C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g"; }
 
 
         	//protected void mismatch(IntStream input, int ttype, BitSet follow)
@@ -110,7 +110,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
 
 
         // $ANTLR start commentBody
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:82:1: commentBody : d= description ( paragraphTag )* EOF -> ^( ASDOC description ( paragraphTag )* ) ;
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:82:1: commentBody : d= description ( paragraphTag )* EOF -> ^( ASDOC description ( paragraphTag )* ) ;
         public final function commentBody():ParserRuleReturnScope {
             var retval:ParserRuleReturnScope = new ParserRuleReturnScope();
             retval.start = input.LT(1);
@@ -128,8 +128,8 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
             var stream_paragraphTag:RewriteRuleSubtreeStream=new RewriteRuleSubtreeStream(adaptor,"rule paragraphTag");
             var stream_description:RewriteRuleSubtreeStream=new RewriteRuleSubtreeStream(adaptor,"rule description");
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:83:2: (d= description ( paragraphTag )* EOF -> ^( ASDOC description ( paragraphTag )* ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:83:4: d= description ( paragraphTag )* EOF
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:83:2: (d= description ( paragraphTag )* EOF -> ^( ASDOC description ( paragraphTag )* ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:83:4: d= description ( paragraphTag )* EOF
                 {
                 pushFollow(FOLLOW_description_in_commentBody137);
                 d=description();
@@ -140,7 +140,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                 if ( this.state.backtracking==0 ) {
                   placeholder((d!=null?LinkedListTree(d.tree):null));
                 }
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:84:3: ( paragraphTag )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:84:3: ( paragraphTag )*
                 loop1:
                 do {
                     var alt1:int=2;
@@ -153,7 +153,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
 
                     switch (alt1) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:84:3: paragraphTag
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:84:3: paragraphTag
                 	    {
                 	    pushFollow(FOLLOW_paragraphTag_in_commentBody143);
                 	    paragraphTag1=paragraphTag();
@@ -188,13 +188,13 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                 root_0 = LinkedListTree(adaptor.nil());
                 // 86:3: -> ^( ASDOC description ( paragraphTag )* )
                 {
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:86:6: ^( ASDOC description ( paragraphTag )* )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:86:6: ^( ASDOC description ( paragraphTag )* )
                     {
                     var root_1:LinkedListTree = LinkedListTree(adaptor.nil());
                     root_1 = LinkedListTree(adaptor.becomeRoot(LinkedListTree(adaptor.create(ASDOC, "ASDOC")), root_1));
 
                     adaptor.addChild(root_1, stream_description.nextTree());
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:86:26: ( paragraphTag )*
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:86:26: ( paragraphTag )*
                     while ( stream_paragraphTag.hasNext ) {
                         adaptor.addChild(root_1, stream_paragraphTag.nextTree());
 
@@ -224,7 +224,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
         // $ANTLR end commentBody
 
         // $ANTLR start description
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:90:1: description : ( textLine )* -> ^( DESCRIPTION ( textLine )* ) ;
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:90:1: description : ( textLine )* -> ^( DESCRIPTION ( textLine )* ) ;
         public final function description():ParserRuleReturnScope {
             var retval:ParserRuleReturnScope = new ParserRuleReturnScope();
             retval.start = input.LT(1);
@@ -236,17 +236,17 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
 
             var stream_textLine:RewriteRuleSubtreeStream=new RewriteRuleSubtreeStream(adaptor,"rule textLine");
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:91:2: ( ( textLine )* -> ^( DESCRIPTION ( textLine )* ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:91:4: ( textLine )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:91:2: ( ( textLine )* -> ^( DESCRIPTION ( textLine )* ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:91:4: ( textLine )*
                 {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:91:4: ( textLine )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:91:4: ( textLine )*
                 loop2:
                 do {
                     var alt2:int=2;
                     alt2 = dfa2.predict(input);
                     switch (alt2) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:91:4: textLine
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:91:4: textLine
                 	    {
                 	    pushFollow(FOLLOW_textLine_in_description173);
                 	    textLine3=textLine();
@@ -278,12 +278,12 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                 root_0 = LinkedListTree(adaptor.nil());
                 // 92:3: -> ^( DESCRIPTION ( textLine )* )
                 {
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:92:6: ^( DESCRIPTION ( textLine )* )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:92:6: ^( DESCRIPTION ( textLine )* )
                     {
                     var root_1:LinkedListTree = LinkedListTree(adaptor.nil());
                     root_1 = LinkedListTree(adaptor.becomeRoot(LinkedListTree(adaptor.create(DESCRIPTION, "DESCRIPTION")), root_1));
 
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:92:20: ( textLine )*
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:92:20: ( textLine )*
                     while ( stream_textLine.hasNext ) {
                         adaptor.addChild(root_1, stream_textLine.nextTree());
 
@@ -313,7 +313,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
         // $ANTLR end description
 
         // $ANTLR start textLine
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:95:1: textLine : ( textLineStart ( textLineContent )* ( NL | EOF ) | NL );
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:95:1: textLine : ( textLineStart ( textLineContent )* ( NL | EOF ) | NL );
         public final function textLine():ParserRuleReturnScope {
             var retval:ParserRuleReturnScope = new ParserRuleReturnScope();
             retval.start = input.LT(1);
@@ -333,7 +333,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
             var NL8_tree:LinkedListTree=null;
 
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:96:2: ( textLineStart ( textLineContent )* ( NL | EOF ) | NL )
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:96:2: ( textLineStart ( textLineContent )* ( NL | EOF ) | NL )
                 var alt5:int=2;
                 var LA5_0:int = input.LA(1);
 
@@ -350,7 +350,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                 }
                 switch (alt5) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:96:4: textLineStart ( textLineContent )* ( NL | EOF )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:96:4: textLineStart ( textLineContent )* ( NL | EOF )
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
@@ -360,16 +360,16 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         state._fsp = state._fsp - 1;
                         if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) adaptor.addChild(root_0, textLineStart4.tree);
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:97:3: ( textLineContent )*
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:96:18: ( textLineContent )*
                         loop3:
                         do {
                             var alt3:int=2;
                             alt3 = dfa3.predict(input);
                             switch (alt3) {
                         	case 1 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:97:3: textLineContent
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:96:18: textLineContent
                         	    {
-                        	    pushFollow(FOLLOW_textLineContent_in_textLine200);
+                        	    pushFollow(FOLLOW_textLineContent_in_textLine198);
                         	    textLineContent5=textLineContent();
 
                         	    state._fsp = state._fsp - 1;
@@ -384,7 +384,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                             }
                         } while (true);
 
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:98:3: ( NL | EOF )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:96:35: ( NL | EOF )
                         var alt4:int=2;
                         var LA4_0:int = input.LA(1);
 
@@ -401,9 +401,9 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         switch (alt4) {
                             case 1 :
-                                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:98:4: NL
+                                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:96:36: NL
                                 {
-                                NL6=Token(matchStream(input,NL,FOLLOW_NL_in_textLine206)); if (this.state.failed) return retval;
+                                NL6=Token(matchStream(input,NL,FOLLOW_NL_in_textLine202)); if (this.state.failed) return retval;
                                 if ( this.state.backtracking==0 ) {
                                 NL6_tree = LinkedListTree(adaptor.create(NL6));
                                 adaptor.addChild(root_0, NL6_tree);
@@ -412,9 +412,9 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                                 }
                                 break;
                             case 2 :
-                                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:98:9: EOF
+                                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:96:41: EOF
                                 {
-                                EOF7=Token(matchStream(input,EOF,FOLLOW_EOF_in_textLine210)); if (this.state.failed) return retval;
+                                EOF7=Token(matchStream(input,EOF,FOLLOW_EOF_in_textLine206)); if (this.state.failed) return retval;
 
                                 }
                                 break;
@@ -425,11 +425,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:99:4: NL
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:97:4: NL
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        NL8=Token(matchStream(input,NL,FOLLOW_NL_in_textLine217)); if (this.state.failed) return retval;
+                        NL8=Token(matchStream(input,NL,FOLLOW_NL_in_textLine213)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         NL8_tree = LinkedListTree(adaptor.create(NL8));
                         adaptor.addChild(root_0, NL8_tree);
@@ -454,7 +454,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
         // $ANTLR end textLine
 
         // $ANTLR start textLineStart
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:102:1: textLineStart : ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT );
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:100:1: textLineStart : ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT );
         public final function textLineStart():ParserRuleReturnScope {
             var retval:ParserRuleReturnScope = new ParserRuleReturnScope();
             retval.start = input.LT(1);
@@ -478,16 +478,16 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
             var AT15_tree:LinkedListTree=null;
 
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:103:2: ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT )
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:101:2: ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT )
                 var alt6:int=7;
                 alt6 = dfa6.predict(input);
                 switch (alt6) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:103:4: ( LBRACE ATWORD )=> inlineTag
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:101:4: ( LBRACE ATWORD )=> inlineTag
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        pushFollow(FOLLOW_inlineTag_in_textLineStart235);
+                        pushFollow(FOLLOW_inlineTag_in_textLineStart231);
                         inlineTag9=inlineTag();
 
                         state._fsp = state._fsp - 1;
@@ -497,11 +497,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:104:4: WORD
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:102:4: WORD
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        WORD10=Token(matchStream(input,WORD,FOLLOW_WORD_in_textLineStart240)); if (this.state.failed) return retval;
+                        WORD10=Token(matchStream(input,WORD,FOLLOW_WORD_in_textLineStart236)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         WORD10_tree = LinkedListTree(adaptor.create(WORD10));
                         adaptor.addChild(root_0, WORD10_tree);
@@ -510,11 +510,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 3 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:104:11: STARS
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:102:11: STARS
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        STARS11=Token(matchStream(input,STARS,FOLLOW_STARS_in_textLineStart244)); if (this.state.failed) return retval;
+                        STARS11=Token(matchStream(input,STARS,FOLLOW_STARS_in_textLineStart240)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         STARS11_tree = LinkedListTree(adaptor.create(STARS11));
                         adaptor.addChild(root_0, STARS11_tree);
@@ -523,11 +523,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 4 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:104:19: WS
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:102:19: WS
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        WS12=Token(matchStream(input,WS,FOLLOW_WS_in_textLineStart248)); if (this.state.failed) return retval;
+                        WS12=Token(matchStream(input,WS,FOLLOW_WS_in_textLineStart244)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         WS12_tree = LinkedListTree(adaptor.create(WS12));
                         adaptor.addChild(root_0, WS12_tree);
@@ -536,11 +536,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 5 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:104:24: LBRACE
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:102:24: LBRACE
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        LBRACE13=Token(matchStream(input,LBRACE,FOLLOW_LBRACE_in_textLineStart252)); if (this.state.failed) return retval;
+                        LBRACE13=Token(matchStream(input,LBRACE,FOLLOW_LBRACE_in_textLineStart248)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         LBRACE13_tree = LinkedListTree(adaptor.create(LBRACE13));
                         adaptor.addChild(root_0, LBRACE13_tree);
@@ -549,11 +549,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 6 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:104:33: RBRACE
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:102:33: RBRACE
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        RBRACE14=Token(matchStream(input,RBRACE,FOLLOW_RBRACE_in_textLineStart256)); if (this.state.failed) return retval;
+                        RBRACE14=Token(matchStream(input,RBRACE,FOLLOW_RBRACE_in_textLineStart252)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         RBRACE14_tree = LinkedListTree(adaptor.create(RBRACE14));
                         adaptor.addChild(root_0, RBRACE14_tree);
@@ -562,11 +562,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 7 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:104:42: AT
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:102:42: AT
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        AT15=Token(matchStream(input,AT,FOLLOW_AT_in_textLineStart260)); if (this.state.failed) return retval;
+                        AT15=Token(matchStream(input,AT,FOLLOW_AT_in_textLineStart256)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         AT15_tree = LinkedListTree(adaptor.create(AT15));
                         adaptor.addChild(root_0, AT15_tree);
@@ -591,7 +591,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
         // $ANTLR end textLineStart
 
         // $ANTLR start textLineContent
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:107:1: textLineContent : ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT | ATWORD );
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:105:1: textLineContent : ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT | ATWORD );
         public final function textLineContent():ParserRuleReturnScope {
             var retval:ParserRuleReturnScope = new ParserRuleReturnScope();
             retval.start = input.LT(1);
@@ -617,16 +617,16 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
             var ATWORD23_tree:LinkedListTree=null;
 
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:108:2: ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT | ATWORD )
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:106:2: ( ( LBRACE ATWORD )=> inlineTag | WORD | STARS | WS | LBRACE | RBRACE | AT | ATWORD )
                 var alt7:int=8;
                 alt7 = dfa7.predict(input);
                 switch (alt7) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:108:4: ( LBRACE ATWORD )=> inlineTag
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:106:4: ( LBRACE ATWORD )=> inlineTag
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        pushFollow(FOLLOW_inlineTag_in_textLineContent278);
+                        pushFollow(FOLLOW_inlineTag_in_textLineContent274);
                         inlineTag16=inlineTag();
 
                         state._fsp = state._fsp - 1;
@@ -636,11 +636,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:109:4: WORD
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:107:4: WORD
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        WORD17=Token(matchStream(input,WORD,FOLLOW_WORD_in_textLineContent283)); if (this.state.failed) return retval;
+                        WORD17=Token(matchStream(input,WORD,FOLLOW_WORD_in_textLineContent279)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         WORD17_tree = LinkedListTree(adaptor.create(WORD17));
                         adaptor.addChild(root_0, WORD17_tree);
@@ -649,11 +649,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 3 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:109:11: STARS
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:107:11: STARS
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        STARS18=Token(matchStream(input,STARS,FOLLOW_STARS_in_textLineContent287)); if (this.state.failed) return retval;
+                        STARS18=Token(matchStream(input,STARS,FOLLOW_STARS_in_textLineContent283)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         STARS18_tree = LinkedListTree(adaptor.create(STARS18));
                         adaptor.addChild(root_0, STARS18_tree);
@@ -662,11 +662,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 4 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:109:19: WS
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:107:19: WS
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        WS19=Token(matchStream(input,WS,FOLLOW_WS_in_textLineContent291)); if (this.state.failed) return retval;
+                        WS19=Token(matchStream(input,WS,FOLLOW_WS_in_textLineContent287)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         WS19_tree = LinkedListTree(adaptor.create(WS19));
                         adaptor.addChild(root_0, WS19_tree);
@@ -675,11 +675,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 5 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:109:24: LBRACE
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:107:24: LBRACE
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        LBRACE20=Token(matchStream(input,LBRACE,FOLLOW_LBRACE_in_textLineContent295)); if (this.state.failed) return retval;
+                        LBRACE20=Token(matchStream(input,LBRACE,FOLLOW_LBRACE_in_textLineContent291)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         LBRACE20_tree = LinkedListTree(adaptor.create(LBRACE20));
                         adaptor.addChild(root_0, LBRACE20_tree);
@@ -688,11 +688,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 6 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:109:33: RBRACE
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:107:33: RBRACE
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        RBRACE21=Token(matchStream(input,RBRACE,FOLLOW_RBRACE_in_textLineContent299)); if (this.state.failed) return retval;
+                        RBRACE21=Token(matchStream(input,RBRACE,FOLLOW_RBRACE_in_textLineContent295)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         RBRACE21_tree = LinkedListTree(adaptor.create(RBRACE21));
                         adaptor.addChild(root_0, RBRACE21_tree);
@@ -701,11 +701,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 7 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:109:42: AT
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:107:42: AT
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        AT22=Token(matchStream(input,AT,FOLLOW_AT_in_textLineContent303)); if (this.state.failed) return retval;
+                        AT22=Token(matchStream(input,AT,FOLLOW_AT_in_textLineContent299)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         AT22_tree = LinkedListTree(adaptor.create(AT22));
                         adaptor.addChild(root_0, AT22_tree);
@@ -714,11 +714,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 8 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:109:47: ATWORD
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:107:47: ATWORD
                         {
                         root_0 = LinkedListTree(adaptor.nil());
 
-                        ATWORD23=Token(matchStream(input,ATWORD,FOLLOW_ATWORD_in_textLineContent307)); if (this.state.failed) return retval;
+                        ATWORD23=Token(matchStream(input,ATWORD,FOLLOW_ATWORD_in_textLineContent303)); if (this.state.failed) return retval;
                         if ( this.state.backtracking==0 ) {
                         ATWORD23_tree = LinkedListTree(adaptor.create(ATWORD23));
                         adaptor.addChild(root_0, ATWORD23_tree);
@@ -743,7 +743,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
         // $ANTLR end textLineContent
 
         // $ANTLR start inlineTag
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:112:1: inlineTag : LBRACE ATWORD ( inlineTagContent )* RBRACE -> ^( INLINE_TAG ATWORD ( inlineTagContent )* ) ;
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:110:1: inlineTag : LBRACE ATWORD ( inlineTagContent )* RBRACE -> ^( INLINE_TAG ATWORD ( inlineTagContent )* ) ;
         public final function inlineTag():ParserRuleReturnScope {
             var retval:ParserRuleReturnScope = new ParserRuleReturnScope();
             retval.start = input.LT(1);
@@ -764,16 +764,16 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
             var stream_LBRACE:RewriteRuleTokenStream=new RewriteRuleTokenStream(adaptor,"token LBRACE");
             var stream_inlineTagContent:RewriteRuleSubtreeStream=new RewriteRuleSubtreeStream(adaptor,"rule inlineTagContent");
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:113:2: ( LBRACE ATWORD ( inlineTagContent )* RBRACE -> ^( INLINE_TAG ATWORD ( inlineTagContent )* ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:113:4: LBRACE ATWORD ( inlineTagContent )* RBRACE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:111:2: ( LBRACE ATWORD ( inlineTagContent )* RBRACE -> ^( INLINE_TAG ATWORD ( inlineTagContent )* ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:111:4: LBRACE ATWORD ( inlineTagContent )* RBRACE
                 {
-                LBRACE24=Token(matchStream(input,LBRACE,FOLLOW_LBRACE_in_inlineTag318)); if (this.state.failed) return retval; 
+                LBRACE24=Token(matchStream(input,LBRACE,FOLLOW_LBRACE_in_inlineTag314)); if (this.state.failed) return retval; 
                 if ( this.state.backtracking==0 ) stream_LBRACE.add(LBRACE24);
 
-                ATWORD25=Token(matchStream(input,ATWORD,FOLLOW_ATWORD_in_inlineTag320)); if (this.state.failed) return retval; 
+                ATWORD25=Token(matchStream(input,ATWORD,FOLLOW_ATWORD_in_inlineTag316)); if (this.state.failed) return retval; 
                 if ( this.state.backtracking==0 ) stream_ATWORD.add(ATWORD25);
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:113:18: ( inlineTagContent )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:111:18: ( inlineTagContent )*
                 loop8:
                 do {
                     var alt8:int=2;
@@ -786,9 +786,9 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
 
                     switch (alt8) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:113:18: inlineTagContent
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:111:18: inlineTagContent
                 	    {
-                	    pushFollow(FOLLOW_inlineTagContent_in_inlineTag322);
+                	    pushFollow(FOLLOW_inlineTagContent_in_inlineTag318);
                 	    inlineTagContent26=inlineTagContent();
 
                 	    state._fsp = state._fsp - 1;
@@ -803,7 +803,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                     }
                 } while (true);
 
-                RBRACE27=Token(matchStream(input,RBRACE,FOLLOW_RBRACE_in_inlineTag325)); if (this.state.failed) return retval; 
+                RBRACE27=Token(matchStream(input,RBRACE,FOLLOW_RBRACE_in_inlineTag321)); if (this.state.failed) return retval; 
                 if ( this.state.backtracking==0 ) stream_RBRACE.add(RBRACE27);
 
 
@@ -819,15 +819,15 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                 var stream_retval:RewriteRuleSubtreeStream=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                 root_0 = LinkedListTree(adaptor.nil());
-                // 114:3: -> ^( INLINE_TAG ATWORD ( inlineTagContent )* )
+                // 112:3: -> ^( INLINE_TAG ATWORD ( inlineTagContent )* )
                 {
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:114:6: ^( INLINE_TAG ATWORD ( inlineTagContent )* )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:112:6: ^( INLINE_TAG ATWORD ( inlineTagContent )* )
                     {
                     var root_1:LinkedListTree = LinkedListTree(adaptor.nil());
                     root_1 = LinkedListTree(adaptor.becomeRoot(LinkedListTree(adaptor.create(INLINE_TAG, "INLINE_TAG")), root_1));
 
                     adaptor.addChild(root_1, stream_ATWORD.nextNode());
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:114:26: ( inlineTagContent )*
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:112:26: ( inlineTagContent )*
                     while ( stream_inlineTagContent.hasNext ) {
                         adaptor.addChild(root_1, stream_inlineTagContent.nextTree());
 
@@ -857,7 +857,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
         // $ANTLR end inlineTag
 
         // $ANTLR start inlineTagContent
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:117:1: inlineTagContent : ( WORD | STARS | WS | AT | NL );
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:115:1: inlineTagContent : ( WORD | STARS | WS | AT | NL );
         public final function inlineTagContent():ParserRuleReturnScope {
             var retval:ParserRuleReturnScope = new ParserRuleReturnScope();
             retval.start = input.LT(1);
@@ -869,8 +869,8 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
             var set28_tree:LinkedListTree=null;
 
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:118:2: ( WORD | STARS | WS | AT | NL )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:116:2: ( WORD | STARS | WS | AT | NL )
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:
                 {
                 root_0 = LinkedListTree(adaptor.nil());
 
@@ -903,7 +903,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
         // $ANTLR end inlineTagContent
 
         // $ANTLR start paragraphTag
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:121:1: paragraphTag : ATWORD paragraphTagTail -> ^( PARA_TAG ATWORD paragraphTagTail ) ;
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:119:1: paragraphTag : ATWORD paragraphTagTail -> ^( PARA_TAG ATWORD paragraphTagTail ) ;
         public final function paragraphTag():ParserRuleReturnScope {
             var retval:ParserRuleReturnScope = new ParserRuleReturnScope();
             retval.start = input.LT(1);
@@ -918,13 +918,13 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
             var stream_ATWORD:RewriteRuleTokenStream=new RewriteRuleTokenStream(adaptor,"token ATWORD");
             var stream_paragraphTagTail:RewriteRuleSubtreeStream=new RewriteRuleSubtreeStream(adaptor,"rule paragraphTagTail");
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:122:2: ( ATWORD paragraphTagTail -> ^( PARA_TAG ATWORD paragraphTagTail ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:122:4: ATWORD paragraphTagTail
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:120:2: ( ATWORD paragraphTagTail -> ^( PARA_TAG ATWORD paragraphTagTail ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:120:4: ATWORD paragraphTagTail
                 {
-                ATWORD29=Token(matchStream(input,ATWORD,FOLLOW_ATWORD_in_paragraphTag376)); if (this.state.failed) return retval; 
+                ATWORD29=Token(matchStream(input,ATWORD,FOLLOW_ATWORD_in_paragraphTag372)); if (this.state.failed) return retval; 
                 if ( this.state.backtracking==0 ) stream_ATWORD.add(ATWORD29);
 
-                pushFollow(FOLLOW_paragraphTagTail_in_paragraphTag378);
+                pushFollow(FOLLOW_paragraphTagTail_in_paragraphTag374);
                 paragraphTagTail30=paragraphTagTail();
 
                 state._fsp = state._fsp - 1;
@@ -933,7 +933,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
 
 
                 // AST REWRITE
-                // elements: ATWORD, paragraphTagTail
+                // elements: paragraphTagTail, ATWORD
                 // token labels: 
                 // rule labels: retval
                 // token list labels: 
@@ -943,9 +943,9 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                 var stream_retval:RewriteRuleSubtreeStream=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                 root_0 = LinkedListTree(adaptor.nil());
-                // 123:3: -> ^( PARA_TAG ATWORD paragraphTagTail )
+                // 121:3: -> ^( PARA_TAG ATWORD paragraphTagTail )
                 {
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:123:6: ^( PARA_TAG ATWORD paragraphTagTail )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:121:6: ^( PARA_TAG ATWORD paragraphTagTail )
                     {
                     var root_1:LinkedListTree = LinkedListTree(adaptor.nil());
                     root_1 = LinkedListTree(adaptor.becomeRoot(LinkedListTree(adaptor.create(PARA_TAG, "PARA_TAG")), root_1));
@@ -976,7 +976,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
         // $ANTLR end paragraphTag
 
         // $ANTLR start paragraphTagTail
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:126:1: paragraphTagTail : ( textLineContent )* ( NL ( textLine )* | EOF ) -> ( textLineContent )* ( NL )? ( textLine )* ;
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:124:1: paragraphTagTail : ( textLineContent )* ( NL ( textLine )* | EOF ) -> ( textLineContent )* ( NL )? ( textLine )* ;
         public final function paragraphTagTail():ParserRuleReturnScope {
             var retval:ParserRuleReturnScope = new ParserRuleReturnScope();
             retval.start = input.LT(1);
@@ -997,19 +997,19 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
             var stream_textLineContent:RewriteRuleSubtreeStream=new RewriteRuleSubtreeStream(adaptor,"rule textLineContent");
             var stream_textLine:RewriteRuleSubtreeStream=new RewriteRuleSubtreeStream(adaptor,"rule textLine");
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:127:2: ( ( textLineContent )* ( NL ( textLine )* | EOF ) -> ( textLineContent )* ( NL )? ( textLine )* )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:127:4: ( textLineContent )* ( NL ( textLine )* | EOF )
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:125:2: ( ( textLineContent )* ( NL ( textLine )* | EOF ) -> ( textLineContent )* ( NL )? ( textLine )* )
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:125:4: ( textLineContent )* ( NL ( textLine )* | EOF )
                 {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:127:4: ( textLineContent )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:125:4: ( textLineContent )*
                 loop9:
                 do {
                     var alt9:int=2;
                     alt9 = dfa9.predict(input);
                     switch (alt9) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:127:4: textLineContent
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:125:4: textLineContent
                 	    {
-                	    pushFollow(FOLLOW_textLineContent_in_paragraphTagTail401);
+                	    pushFollow(FOLLOW_textLineContent_in_paragraphTagTail397);
                 	    textLineContent31=textLineContent();
 
                 	    state._fsp = state._fsp - 1;
@@ -1024,7 +1024,7 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                     }
                 } while (true);
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:128:3: ( NL ( textLine )* | EOF )
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:126:3: ( NL ( textLine )* | EOF )
                 var alt11:int=2;
                 var LA11_0:int = input.LA(1);
 
@@ -1041,21 +1041,21 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                 }
                 switch (alt11) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:128:5: NL ( textLine )*
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:126:5: NL ( textLine )*
                         {
-                        NL32=Token(matchStream(input,NL,FOLLOW_NL_in_paragraphTagTail408)); if (this.state.failed) return retval; 
+                        NL32=Token(matchStream(input,NL,FOLLOW_NL_in_paragraphTagTail404)); if (this.state.failed) return retval; 
                         if ( this.state.backtracking==0 ) stream_NL.add(NL32);
 
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:128:8: ( textLine )*
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:126:8: ( textLine )*
                         loop10:
                         do {
                             var alt10:int=2;
                             alt10 = dfa10.predict(input);
                             switch (alt10) {
                         	case 1 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:128:8: textLine
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:126:8: textLine
                         	    {
-                        	    pushFollow(FOLLOW_textLine_in_paragraphTagTail410);
+                        	    pushFollow(FOLLOW_textLine_in_paragraphTagTail406);
                         	    textLine33=textLine();
 
                         	    state._fsp = state._fsp - 1;
@@ -1074,9 +1074,9 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:129:5: EOF
+                        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:127:5: EOF
                         {
-                        EOF34=Token(matchStream(input,EOF,FOLLOW_EOF_in_paragraphTagTail417)); if (this.state.failed) return retval; 
+                        EOF34=Token(matchStream(input,EOF,FOLLOW_EOF_in_paragraphTagTail413)); if (this.state.failed) return retval; 
                         if ( this.state.backtracking==0 ) stream_EOF.add(EOF34);
 
 
@@ -1098,21 +1098,21 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
                 var stream_retval:RewriteRuleSubtreeStream=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                 root_0 = LinkedListTree(adaptor.nil());
-                // 131:3: -> ( textLineContent )* ( NL )? ( textLine )*
+                // 129:3: -> ( textLineContent )* ( NL )? ( textLine )*
                 {
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:131:6: ( textLineContent )*
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:129:6: ( textLineContent )*
                     while ( stream_textLineContent.hasNext ) {
                         adaptor.addChild(root_0, stream_textLineContent.nextTree());
 
                     }
                     stream_textLineContent.reset();
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:131:23: ( NL )?
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:129:23: ( NL )?
                     if ( stream_NL.hasNext ) {
                         adaptor.addChild(root_0, stream_NL.nextNode());
 
                     }
                     stream_NL.reset();
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:131:27: ( textLine )*
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:129:27: ( textLine )*
                     while ( stream_textLine.hasNext ) {
                         adaptor.addChild(root_0, stream_textLine.nextTree());
 
@@ -1140,11 +1140,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
 
         // $ANTLR start synpred1_ASDoc
         public final function synpred1_ASDoc_fragment():void {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:103:4: ( LBRACE ATWORD )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:103:5: LBRACE ATWORD
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:101:4: ( LBRACE ATWORD )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:101:5: LBRACE ATWORD
             {
-            matchStream(input,LBRACE,FOLLOW_LBRACE_in_synpred1_ASDoc229); if (this.state.failed) return ;
-            matchStream(input,ATWORD,FOLLOW_ATWORD_in_synpred1_ASDoc231); if (this.state.failed) return ;
+            matchStream(input,LBRACE,FOLLOW_LBRACE_in_synpred1_ASDoc225); if (this.state.failed) return ;
+            matchStream(input,ATWORD,FOLLOW_ATWORD_in_synpred1_ASDoc227); if (this.state.failed) return ;
 
             }
         }
@@ -1152,11 +1152,11 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
 
         // $ANTLR start synpred2_ASDoc
         public final function synpred2_ASDoc_fragment():void {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:108:4: ( LBRACE ATWORD )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:108:5: LBRACE ATWORD
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:106:4: ( LBRACE ATWORD )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\asdoc\\ASDoc.g:106:5: LBRACE ATWORD
             {
-            matchStream(input,LBRACE,FOLLOW_LBRACE_in_synpred2_ASDoc272); if (this.state.failed) return ;
-            matchStream(input,ATWORD,FOLLOW_ATWORD_in_synpred2_ASDoc274); if (this.state.failed) return ;
+            matchStream(input,LBRACE,FOLLOW_LBRACE_in_synpred2_ASDoc268); if (this.state.failed) return ;
+            matchStream(input,ATWORD,FOLLOW_ATWORD_in_synpred2_ASDoc270); if (this.state.failed) return ;
 
             }
         }
@@ -2505,40 +2505,40 @@ package org.as3commons.asblocks.parser.antlr.asdoc {
         public static const FOLLOW_EOF_in_commentBody148:BitSet = new BitSet([0x00000002, 0x00000000]);
         public static const FOLLOW_textLine_in_description173:BitSet = new BitSet([0x0001FC02, 0x00000000]);
         public static const FOLLOW_textLineStart_in_textLine196:BitSet = new BitSet([0x0003FC00, 0x00000000]);
-        public static const FOLLOW_textLineContent_in_textLine200:BitSet = new BitSet([0x0003FC00, 0x00000000]);
-        public static const FOLLOW_NL_in_textLine206:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_EOF_in_textLine210:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_NL_in_textLine217:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_inlineTag_in_textLineStart235:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_WORD_in_textLineStart240:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_STARS_in_textLineStart244:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_WS_in_textLineStart248:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_LBRACE_in_textLineStart252:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_RBRACE_in_textLineStart256:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_AT_in_textLineStart260:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_inlineTag_in_textLineContent278:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_WORD_in_textLineContent283:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_STARS_in_textLineContent287:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_WS_in_textLineContent291:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_LBRACE_in_textLineContent295:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_RBRACE_in_textLineContent299:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_AT_in_textLineContent303:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_ATWORD_in_textLineContent307:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_LBRACE_in_inlineTag318:BitSet = new BitSet([0x00020000, 0x00000000]);
-        public static const FOLLOW_ATWORD_in_inlineTag320:BitSet = new BitSet([0x0001BC00, 0x00000000]);
-        public static const FOLLOW_inlineTagContent_in_inlineTag322:BitSet = new BitSet([0x0001BC00, 0x00000000]);
-        public static const FOLLOW_RBRACE_in_inlineTag325:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_textLineContent_in_textLine198:BitSet = new BitSet([0x0003FC00, 0x00000000]);
+        public static const FOLLOW_NL_in_textLine202:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_EOF_in_textLine206:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_NL_in_textLine213:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_inlineTag_in_textLineStart231:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_WORD_in_textLineStart236:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_STARS_in_textLineStart240:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_WS_in_textLineStart244:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_LBRACE_in_textLineStart248:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_RBRACE_in_textLineStart252:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_AT_in_textLineStart256:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_inlineTag_in_textLineContent274:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_WORD_in_textLineContent279:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_STARS_in_textLineContent283:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_WS_in_textLineContent287:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_LBRACE_in_textLineContent291:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_RBRACE_in_textLineContent295:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_AT_in_textLineContent299:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_ATWORD_in_textLineContent303:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_LBRACE_in_inlineTag314:BitSet = new BitSet([0x00020000, 0x00000000]);
+        public static const FOLLOW_ATWORD_in_inlineTag316:BitSet = new BitSet([0x0001BC00, 0x00000000]);
+        public static const FOLLOW_inlineTagContent_in_inlineTag318:BitSet = new BitSet([0x0001BC00, 0x00000000]);
+        public static const FOLLOW_RBRACE_in_inlineTag321:BitSet = new BitSet([0x00000002, 0x00000000]);
         public static const FOLLOW_set_in_inlineTagContent0:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_ATWORD_in_paragraphTag376:BitSet = new BitSet([0x0003FC00, 0x00000000]);
-        public static const FOLLOW_paragraphTagTail_in_paragraphTag378:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_textLineContent_in_paragraphTagTail401:BitSet = new BitSet([0x0003FC00, 0x00000000]);
-        public static const FOLLOW_NL_in_paragraphTagTail408:BitSet = new BitSet([0x0001FC00, 0x00000000]);
-        public static const FOLLOW_textLine_in_paragraphTagTail410:BitSet = new BitSet([0x0001FC02, 0x00000000]);
-        public static const FOLLOW_EOF_in_paragraphTagTail417:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_LBRACE_in_synpred1_ASDoc229:BitSet = new BitSet([0x00020000, 0x00000000]);
-        public static const FOLLOW_ATWORD_in_synpred1_ASDoc231:BitSet = new BitSet([0x00000002, 0x00000000]);
-        public static const FOLLOW_LBRACE_in_synpred2_ASDoc272:BitSet = new BitSet([0x00020000, 0x00000000]);
-        public static const FOLLOW_ATWORD_in_synpred2_ASDoc274:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_ATWORD_in_paragraphTag372:BitSet = new BitSet([0x0003FC00, 0x00000000]);
+        public static const FOLLOW_paragraphTagTail_in_paragraphTag374:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_textLineContent_in_paragraphTagTail397:BitSet = new BitSet([0x0003FC00, 0x00000000]);
+        public static const FOLLOW_NL_in_paragraphTagTail404:BitSet = new BitSet([0x0001FC00, 0x00000000]);
+        public static const FOLLOW_textLine_in_paragraphTagTail406:BitSet = new BitSet([0x0001FC02, 0x00000000]);
+        public static const FOLLOW_EOF_in_paragraphTagTail413:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_LBRACE_in_synpred1_ASDoc225:BitSet = new BitSet([0x00020000, 0x00000000]);
+        public static const FOLLOW_ATWORD_in_synpred1_ASDoc227:BitSet = new BitSet([0x00000002, 0x00000000]);
+        public static const FOLLOW_LBRACE_in_synpred2_ASDoc268:BitSet = new BitSet([0x00020000, 0x00000000]);
+        public static const FOLLOW_ATWORD_in_synpred2_ASDoc270:BitSet = new BitSet([0x00000002, 0x00000000]);
 
     }
 }

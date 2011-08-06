@@ -43,6 +43,23 @@ public class TestASDocParser
 	}
 	
 	[Test]
+	public function test_white_space():void
+	{
+		var doc:String = "* First description\n" + "*   @param foo bar";
+		var tree:LinkedListTree = parse(doc);
+		
+		var desc:LinkedListTree = tree.getChild(0) as LinkedListTree;
+		assertEquals(ASDocParser.DESCRIPTION, desc.type);
+		
+		var param:LinkedListTree = tree.getChild(1) as LinkedListTree;
+		assertEquals(ASDocParser.PARA_TAG, param.type);
+		// NOTE: this is a hack for people that add more than on space after
+		// an astrix, which is "not" correct but for this lexer to not fail
+		// for these cases, the tag name is (WS? ATWORD)
+		assertEquals("  @param", param.getFirstChild().text);		
+	}
+	
+	[Test]
 	public function testParaBasic():void
 	{
 		var doc:String = "* desc\n" + "* ription\n" + "* @param foo bar";

@@ -93,9 +93,7 @@ description
 	;
 
 textLine
-	:	textLineStart
-		textLineContent*
-		(NL | EOF!)
+	:	textLineStart textLineContent* (NL | EOF!)
 	|	NL
 	;
 
@@ -131,7 +129,7 @@ paragraphTagTail
 		-> textLineContent* NL? textLine*
 	;
 
-STARS:		'*'+;
+STARS:		'*'+ (' ' | '\t')?;
 
 LBRACE:		'{';
 RBRACE:		'}';
@@ -143,9 +141,12 @@ NL
 options {
 	k=*;
 }
-	:		('\r\n' | '\r' | '\n') WS? (STARS (' ' | '\t')?)?;
+	:		('\r\n' | '\r' | '\n') WS? (STARS)?;
 
-ATWORD:		'@' WORD WORD_TAIL;
+// added this hack for non STAR 1 space tags. In order to keep pre text correct
+// this needs to be here or the pre text prefix indentation WS will be 
+// consumed in the NL which will flatten it to the left
+ATWORD:		WS? '@' WORD WORD_TAIL;
 
 WORD:		~('\n' | ' ' | '\r' | '\t' | '{' | '}' | '@')
 		WORD_TAIL;

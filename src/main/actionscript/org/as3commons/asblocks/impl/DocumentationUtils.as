@@ -260,15 +260,15 @@ public class DocumentationUtils
 
 	private static function stringify(ast:LinkedListTree):String
 	{
-		var result:StringBuffer = new StringBuffer();
+		var result:String = "";
 		for (var tok:LinkedListToken = ast.getStartToken(); tok != null
 				&& tok.type != -1; tok = tok.getNext())
 		{
-			result.append(stringifyToken(tok));
+			result += stringifyToken(tok);
 			if (tok == ast.getStopToken())
 				break;
 		}
-		return result.toString();
+		return result;
 	}
 
 	private static function stringifyShort(ast:LinkedListTree):String
