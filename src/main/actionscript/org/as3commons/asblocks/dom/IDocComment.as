@@ -106,6 +106,13 @@ public interface IDocComment extends IScriptElement
 	 * <code>false</code> does not contain the tag.
 	 */
 	function hasDocTag(name:String):Boolean;
+	
+	/**
+	 * Returns all tags found in the documentation.
+	 * 
+	 * @return An <code>IList</code> of <code>IDocTag</code>.
+	 */
+	function getAllTags():IList;
 
 	/**
 	 * Returns an <code>Iterator</code> for all the tags by <code>name</code>.

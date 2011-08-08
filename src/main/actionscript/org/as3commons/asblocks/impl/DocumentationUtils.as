@@ -136,7 +136,7 @@ public class DocumentationUtils
 		}
 		assertValidContent(text);
 		var indent:String = ASTUtils.findIndent(node);
-		text = "/**" + text.replace(/(\n|\r\n|\r)/g, "$1" + indent + " *");
+		text = "/**" + StringUtils.rightTrim(text.replace(/(\n|\r\n|\r)/g, "$1" + indent + " * "));
 		
 		//if (!text.endsWith("*"))
 		if (text.charAt(text.length - 1) != "*")

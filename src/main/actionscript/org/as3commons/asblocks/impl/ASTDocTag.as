@@ -108,7 +108,9 @@ public class ASTDocTag implements IDocTag
 			tag.addChildWithTokens(trailingNL);
 		}
 		
-		comment.commitModifiedAST();		
+		comment.commitModifiedAST();
+		
+		ast = tag;
 	}
 	
 	private function replaceNLs(tree:LinkedListTree, indentNL:String):void

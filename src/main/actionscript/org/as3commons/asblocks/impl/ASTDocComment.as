@@ -49,15 +49,15 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 	{
 		DocumentationUtils.assertValidContent(body);
 		var newline:String = DocumentationUtils.getNewlineText(ast, _asdoc);
-		body = body.replace("/\n/g", newline);
 		var tagname:String = tagName(name);
 		if (_asdoc == null)
 		{
-			DocumentationUtils.setDocComment(ast, "\n " + tagname + " " + body + "\n");
+			DocumentationUtils.setDocComment(ast, "\n" + tagname + " " + body + "\n");
 			_asdoc = DocumentationUtils.buildASDoc(ast);
 		}
 		else
 		{
+			body = body.replace(/\n/g, newline);
 			var lastChild:LinkedListTree = _asdoc.getLastChild();
 			var para:LinkedListTree = DocumentationUtils.parseParaTag(tagname + " "	+ body);
 			_asdoc.addChildWithTokens(para);
@@ -104,6 +104,23 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 		}
 		return false;
 	}
+	
+	public function getAllTags():IList
+	{
+		if (_asdoc == null)
+		{
+			return new ArrayList();
+		}
+		var tags:IList = new ArrayList();
+		var i:ASTIterator = new ASTIterator(_asdoc);
+		var para:LinkedListTree;
+		while ((para = i.search(ASDocParser.PARA_TAG)) != null)
+		{
+			var tag:LinkedListTree = para.getFirstChild();
+			tags.add(new ASTDocTag(this, para));
+		}
+		return tags;
+	}	
 	
 	public function getTags(name:String):IIterator
 	{
@@ -153,8 +170,10 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 		var start:LinkedListToken = tagAST.getStartToken().getPrev();
 
 		var index:int = _asdoc.getIndexOfChild(tagAST);
-		// TODO what is going on here?
-		if (index == 1 && _asdoc.childCount <= 2)
+		
+		// this chop has to happen on the last tag
+		// if there is any tags BEFORE this tag, don't chop
+		if (index == _asdoc.childCount - 1)
 		{
 			start.text = start.text.replace(" *", "");
 		}

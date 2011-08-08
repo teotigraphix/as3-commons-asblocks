@@ -95,7 +95,7 @@ public class AS3ParserHelper
 			if (type == AS3Parser.EOL
 				|| type == AS3Parser.SL_COMMENT
 				|| (type == AS3Parser.ML_COMMENT 
-					&& lt.text.match("/.*\r\n|\r|\n").length > 0))
+					&& lt.text != null && lt.text.match("/.*\r\n|\r|\n").length > 0))
 			{
 				retval.start = lt;
 				return true;
