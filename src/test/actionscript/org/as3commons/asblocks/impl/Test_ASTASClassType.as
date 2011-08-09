@@ -46,7 +46,7 @@ public class Test_ASTASClassType
 			"as3commons-asblocks-dom\\org\\as3commons\\asblocks\\impl\\ASTASPackage.as";
 		
 		//var parser:IASParser = fact.newParser();
-		var parser:AS3Parser = ASTUtils.parseFile(new File(path));
+		var parser:AS3Parser = ASTUtils.parseFile(FileUtil.newFile(path));
 		var tree:LinkedListTree = ParserRuleReturnScope(parser.compilationUnit()).tree as LinkedListTree;
 		var u:IASCompilationUnit = new ASTASCompilationUnit(tree);
 		

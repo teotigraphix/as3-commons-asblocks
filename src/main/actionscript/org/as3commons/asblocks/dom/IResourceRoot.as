@@ -20,8 +20,6 @@
 package org.as3commons.asblocks.dom
 {
 
-import flash.filesystem.File;
-
 import org.as3commons.collections.framework.IList;
 
 /**
@@ -35,7 +33,7 @@ import org.as3commons.collections.framework.IList;
  */
 public interface IResourceRoot
 {
-	function getPath():File;
+	function getPath():IFile;
 	
 	/**
 	 * Returns the list of <code>ASQNames</code> defined by the types.

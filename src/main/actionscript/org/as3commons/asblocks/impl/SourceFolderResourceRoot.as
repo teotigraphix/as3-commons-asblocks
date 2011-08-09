@@ -22,13 +22,14 @@ package org.as3commons.asblocks.impl
 
 import flash.filesystem.File;
 
+import org.as3commons.asblocks.dom.ASQName;
+import org.as3commons.asblocks.dom.IFile;
 import org.as3commons.asblocks.dom.IResourceRoot;
 import org.as3commons.collections.ArrayList;
 import org.as3commons.collections.framework.IIterator;
 import org.as3commons.collections.framework.IList;
 import org.as3commons.lang.IllegalArgumentError;
 import org.as3commons.lang.StringUtils;
-import org.as3commons.asblocks.dom.ASQName;
 
 /**
  * A ResourceRoot implementation that finds QNames from ActionScript source
@@ -36,14 +37,14 @@ import org.as3commons.asblocks.dom.ASQName;
  */
 public class SourceFolderResourceRoot implements IResourceRoot
 {
-	private var path:File;
+	private var path:IFile;
 
 	private var qnames:IList = null; // ASQName
 
 	/**
 	 * @param path
 	 */
-	public function SourceFolderResourceRoot(path:File)
+	public function SourceFolderResourceRoot(path:IFile)
 	{
 		this.path = path;
 	}
@@ -80,7 +81,8 @@ public class SourceFolderResourceRoot implements IResourceRoot
 		else if (StringUtils.endsWith(file, ".mxml"))
 		{
 			var mtypeName:String = file.replace(File.separator, '.').substring(0, file.length - 5);
-			return new FXQname(mtypeName, new File(path.nativePath));
+			var proxy:IFile = FileUtil.newFile(path.nativePath);
+			return new FXQname(mtypeName, proxy);
 		}
 		throw new IllegalArgumentError("Unkown file type for Resource " + file);
 	}
@@ -116,7 +118,7 @@ public class SourceFolderResourceRoot implements IResourceRoot
 		}
 	}
 
-	public function getPath():File
+	public function getPath():IFile
 	{
 		return path;
 	}

@@ -20,10 +20,9 @@
 package org.as3commons.asblocks
 {
 
-import flash.filesystem.File;
-
 import org.as3commons.asblocks.dom.IASCompilationUnit;
 import org.as3commons.asblocks.dom.IASFile;
+import org.as3commons.asblocks.dom.IFile;
 import org.as3commons.asblocks.dom.Visibility;
 import org.as3commons.collections.framework.IList;
 
@@ -110,7 +109,7 @@ public interface IASProject
 	 * 
 	 * @param file The location of the <code>IASFile</code>.
 	 */
-	function getFile(file:File):IASFile;
+	function getFile(file:IFile):IASFile;
 
 	/**
 	 * Attempts to return an <code>IASFile</code> for the 

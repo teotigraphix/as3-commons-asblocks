@@ -20,8 +20,6 @@
 package org.as3commons.asblocks.impl
 {
 
-import flash.filesystem.File;
-
 import org.antlr.runtime.ANTLRFileStream;
 import org.antlr.runtime.ANTLRStringStream;
 import org.antlr.runtime.MismatchedTokenException;
@@ -31,6 +29,7 @@ import org.antlr.runtime.TokenConstants;
 import org.as3commons.asblocks.ASBlocksSyntaxError;
 import org.as3commons.asblocks.ASFactory;
 import org.as3commons.asblocks.dom.IASCompilationUnit;
+import org.as3commons.asblocks.dom.IFile;
 import org.as3commons.asblocks.dom.IScriptElement;
 import org.as3commons.asblocks.parser.antlr.LinkedListToken;
 import org.as3commons.asblocks.parser.antlr.LinkedListTokenSource;
@@ -307,11 +306,12 @@ public class ASTUtils
 		return parser;
 	}
 	
-	public static function parseFile(file:File):AS3Parser
+	public static function parseFile(file:IFile):AS3Parser
 	{
 		var cs:ANTLRFileStream;
+		var f:* = file.getFile();
 		try {
-			cs = new ANTLRFileStream(file);
+			cs = new ANTLRFileStream(f);
 		} catch (e:Error) {
 			throw new Error(e);
 		}

@@ -20,8 +20,8 @@
 package org.as3commons.asblocks.impl
 {
 
-import flash.filesystem.File;
 import org.as3commons.asblocks.dom.ASQName;
+import org.as3commons.asblocks.dom.IFile;
 
 /**
  * @author Michael Schmalle
@@ -30,19 +30,19 @@ import org.as3commons.asblocks.dom.ASQName;
  */
 public class FXQname extends ASQName
 {
-	private var classPath:File;
+	private var classPath:IFile;
 
-	public function getClassPath():File
+	public function getClassPath():IFile
 	{
 		return classPath;
 	}
 
-	public function setClassPath(classPath:File):void
+	public function setClassPath(classPath:IFile):void
 	{
 		this.classPath = classPath;
 	}
 	
-	public function FXQname(qname:String, classPath:File = null)
+	public function FXQname(qname:String, classPath:IFile = null)
 	{
 		super(qname);
 		

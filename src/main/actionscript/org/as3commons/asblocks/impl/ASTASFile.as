@@ -20,25 +20,24 @@
 package org.as3commons.asblocks.impl
 {
 
-import flash.filesystem.File;
-
 import org.as3commons.asblocks.dom.ASQName;
 import org.as3commons.asblocks.dom.IASCompilationUnit;
 import org.as3commons.asblocks.dom.IASFile;
+import org.as3commons.asblocks.dom.IFile;
 
 public class ASTASFile implements IASFile
 {
-	private var file:File;
+	private var file:IFile;
 	
 	private var unit:IASCompilationUnit;
 	
-	public function ASTASFile(file:File, unit:IASCompilationUnit)
+	public function ASTASFile(file:IFile, unit:IASCompilationUnit)
 	{
 		this.file = file;
 		this.unit = unit;
 	}
 	
-	public function getFile():File
+	public function getFile():IFile
 	{
 		return file;
 	}

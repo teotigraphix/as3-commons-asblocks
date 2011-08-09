@@ -25,6 +25,7 @@ import flash.system.System;
 import flash.utils.getDefinitionByName;
 
 import org.as3commons.asblocks.dom.IASCompilationUnit;
+import org.as3commons.asblocks.dom.IFile;
 
 /**
  * A utility class for dealing with files and their data.
@@ -75,6 +76,29 @@ public class FileUtil
 		return Vector.<String>(data.split("\n"));
 	}
 	
+	
+	
+	public static function get applicationDirectory():IFile
+	{
+		var fileClass:Class = getDefinitionByName("flash.filesystem.File") as Class;
+		if (!fileClass)
+		{
+			throw new Error("Definition flash.filesystem.File not found, import AIR library");
+		}
+		
+		return new FileProxy(fileClass.applicationDirectory);
+	}
+	
+	public static function newFile(nativePath:String):IFile
+	{
+		var fileClass:Class = getDefinitionByName("flash.filesystem.File") as Class;
+		if (!fileClass)
+		{
+			throw new Error("Definition flash.filesystem.File not found, import AIR library");
+		}
+		return new FileProxy(new fileClass(nativePath));
+	}
+	
 	public static function readFile(filePath:String):String
 	{
 		var fileClass:Class = getDefinitionByName("flash.filesystem.File") as Class;
@@ -97,6 +121,23 @@ public class FileUtil
 		var data:String = stream.readUTFBytes(stream.bytesAvailable);
 		
 		return data;
+	}
+	
+	public static function resolvePath(file:IFile, path:String):IFile
+	{
+		var f:Object = file.getFile();
+		var n:Object = f.resolvePath(path);
+		return new FileProxy(n);
+	}
+	
+	public static function writeFile(file:IFile, data:String):void
+	{
+		var fileStreamClass:Class = getDefinitionByName("flash.filesystem.FileStream") as Class;
+		
+		var stream:Object = new fileStreamClass();
+		stream.open(file.getFile(), "write");
+		stream.writeUTFBytes(data);
+		stream.close();
 	}
 	
 	public static function normalizePath(path:String):String

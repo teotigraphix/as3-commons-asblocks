@@ -20,10 +20,6 @@
 package org.as3commons.asblocks.impl
 {
 
-import flash.filesystem.File;
-import flash.filesystem.FileMode;
-import flash.filesystem.FileStream;
-
 import org.antlr.runtime.tree.RewriteEmptyStreamException;
 import org.as3commons.asblocks.ASBlocksSyntaxError;
 import org.as3commons.asblocks.ASFactory;
@@ -33,6 +29,7 @@ import org.as3commons.asblocks.dom.ASQName;
 import org.as3commons.asblocks.dom.IASCompilationUnit;
 import org.as3commons.asblocks.dom.IASFile;
 import org.as3commons.asblocks.dom.IClassPathEntry;
+import org.as3commons.asblocks.dom.IFile;
 import org.as3commons.asblocks.dom.IResourceRoot;
 import org.as3commons.asblocks.dom.Visibility;
 import org.as3commons.collections.ArrayList;
@@ -103,7 +100,7 @@ public class ASTASProject implements IASProject
 		return Lists.newArrayList(classPathResourceRoots.toArray());
 	}
 	
-	public function getFile(file:File):IASFile
+	public function getFile(file:IFile):IASFile
 	{
 		return files.itemFor(file.nativePath);
 	}
@@ -135,9 +132,9 @@ public class ASTASProject implements IASProject
 		this.outputLocation = outputLocation;
 	}
 	
-	private function getAbsoluteOutputLocation():File
+	private function getAbsoluteOutputLocation():IFile
 	{
-		return new File(outputLocation);
+		return FileUtil.newFile(outputLocation);
 	}
 
 	//--------------------------------------------------------------------------
@@ -260,7 +257,7 @@ public class ASTASProject implements IASProject
 				var asparser:IASParser = factory.newParser();
 //				var fxparser:IASParser = new ASTFXParser();
 
-				var file:File = toSourceFile(root.getPath(), qname);
+				var file:IFile = toSourceFile(root.getPath(), qname);
 
 //				FileInputStream in;
 				var unit:IASCompilationUnit;
@@ -310,12 +307,12 @@ public class ASTASProject implements IASProject
 		trace("done");
 	}
 
-	private function addFile(file:File, unit:IASCompilationUnit):void
+	private function addFile(file:IFile, unit:IASCompilationUnit):void
 	{
 //		files.add(file.nativePath, new ASTASFile(file, unit));
 	}
 
-	private function toSourceFile(path:File, name:ASQName):File
+	private function toSourceFile(path:IFile, name:ASQName):IFile
 	{
 //		if (name instanceof FXQname)
 //		{
@@ -326,8 +323,8 @@ public class ASTASProject implements IASProject
 //		else
 //		{
 			var base:String = path.nativePath;
-			var tail:String = name.toString().replace(".", File.separator);
-			return new File(base + File.separator + tail + ".as");
+			var tail:String = name.toString().replace(".", FileUtil.separator);
+			return FileUtil.newFile(base + FileUtil.separator + tail + ".as");
 //		}
 	}
 
@@ -349,15 +346,15 @@ public class ASTASProject implements IASProject
 
 	private function resourceRootFor(classpathEntry:String):IResourceRoot
 	{
-		var path:File;
+		var path:IFile;
 		if (classpathEntry == ".")
 		{
-			path = File.applicationDirectory;
+			path = FileUtil.applicationDirectory;
 		}
 		else
 		{
 			// add try {}
-			path = new File(classpathEntry);
+			path = FileUtil.newFile(classpathEntry);
 		}
 		
 		if (path.isDirectory)
@@ -393,19 +390,18 @@ public class ASTASProject implements IASProject
 	 */
 	private function write(destinationDir:String, cu:IASCompilationUnit):void
 	{
-		var filename:String = filenameFor(cu);
+		var path:String = filenameFor(cu);
 		var base:String = outputLocation;
 		if (base == ".")
 		{
-			base = File.applicationDirectory.nativePath;
+			base = FileUtil.applicationDirectory.nativePath;
 		}
-		var file:File = new File(base).resolvePath(filename);
-		var stream:FileStream = new FileStream();
-		stream.open(file, FileMode.WRITE);
+		
 		var out:StringWriter = new StringWriter();
-		factory.newWriter().write(out, cu);
-		stream.writeUTFBytes(out.toString());
-		stream.close();
+		factory.newWriter().write(out, cu);		
+		var file:IFile = FileUtil.newFile(base);
+		file = FileUtil.resolvePath(file, path);
+		FileUtil.writeFile(file, out.toString());
 	}
 
 	private static function filenameFor(unit:IASCompilationUnit):String
@@ -420,7 +416,7 @@ public class ASTASProject implements IASProject
 		{
 			name = unit.getPackageName() + "." + unit.getType().getName();
 		}
-		return name.split(".").join(File.separator) + ".as";
+		return name.split(".").join(FileUtil.separator) + ".as";
 	}
 
 	private function addFileUnit(unit:IASCompilationUnit):void

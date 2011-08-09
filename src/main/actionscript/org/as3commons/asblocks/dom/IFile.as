@@ -20,28 +20,16 @@
 package org.as3commons.asblocks.dom
 {
 
-/**
- * The <code>IASFile</code> is a container for an <code>IASCompilationUnit</code>
- * to allow for a <code>File</code> handle on the unit.
- * 
- * @author Michael Schmalle
- * @copyright Teoti Graphix, LLC
- * @since 1.0
- */
-public interface IASFile extends IQNameAware
+public interface IFile
 {
-	/**
-	 * Returns the <code>IFile</code> location of this asfile.
-	 * 
-	 * @return The <code>IFile</code>.
-	 */
-	function getFile():IFile;
+	function getFile():Object;
 	
-	/**
-	 * Returns the <code>IASCompilationUnit</code> child contained.
-	 * 
-	 * @return The child <code>IASCompilationUnit</code>.
-	 */
-	function getCompilationUnit():IASCompilationUnit;
+	function get name():String;
+	
+	function get extension():String;
+	
+	function get nativePath():String;
+	
+	function get isDirectory():Boolean;
 }
 }
