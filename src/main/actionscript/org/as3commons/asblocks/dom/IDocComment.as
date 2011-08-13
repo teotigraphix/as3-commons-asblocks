@@ -95,8 +95,19 @@ public interface IDocComment extends IScriptElement
 	 * @throws ASBlocksSyntaxError if the given text contains an end-of-comment
 	 *         marker, or a tagged-paragraph
 	 */
-	function newDocTag(name:String, body:String = null):IDocTag;
-
+	function newDocTag(name:String, body:String = ""):IDocTag;
+	
+	/**
+	 * Creates and appends a <code>IDocTag</code> tag to the documentation.
+	 * 
+	 * @param name The name of the new doc tag.
+	 * @param body The body of the new doc tag.
+	 * @return A new <code>IDocTag</code> instance.
+	 * @throws ASBlocksSyntaxError if the given text contains an end-of-comment
+	 *         marker, or a tagged-paragraph
+	 */
+	function newDocTagAt(index:int, name:String, body:String = ""):IDocTag;
+	
 	/**
 	 * Returns a <code>boolean</code> indicating whether the documentation
 	 * contains an <code>IDocTag</code> by the name <code>name</code>.

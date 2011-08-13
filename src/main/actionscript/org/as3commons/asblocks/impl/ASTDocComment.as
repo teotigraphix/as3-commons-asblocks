@@ -43,7 +43,6 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 	{
 		return DocumentationUtils.getLongDescriptionString(ast);
 	}
-
 	
 	public function newDocTag(name:String, body:String = ""):IDocTag
 	{
@@ -78,6 +77,36 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 			}
 			commitModifiedAST();
 			return new ASTDocTag(new ASTDocComment(_asdoc), para);
+		}
+		return null;
+	}
+	
+	public function newDocTagAt(index:int, name:String, body:String = ""):IDocTag
+	{
+		DocumentationUtils.assertValidContent(body);
+		var newline:String = DocumentationUtils.getNewlineText(ast, _asdoc);
+		var tagname:String = tagName(name);
+		
+		// have to adjust for the fact the description will always be 0
+		index = Math.max(1, index + 1);
+		
+		if (_asdoc == null)
+		{
+			DocumentationUtils.setDocComment(ast, "\n" + tagname + " " + body + "\n");
+			_asdoc = DocumentationUtils.buildASDoc(ast);
+		}
+		else
+		{
+			if (_asdoc.childCount == 1 || index == _asdoc.childCount)
+				return newDocTag(name, body);			
+			
+			body = body.replace(/\n/g, newline);
+			// create the new AST for the doc tag
+			var tag:LinkedListTree = DocumentationUtils.parseParaTag(tagname + " "	+ body);
+			tag.addChildWithTokens(ASTUtils.newAST(ASDocParser.NL, newline));
+			_asdoc.addChildAtWithTokens(index, tag);
+			commitModifiedAST();
+			return null;
 		}
 		return null;
 	}
