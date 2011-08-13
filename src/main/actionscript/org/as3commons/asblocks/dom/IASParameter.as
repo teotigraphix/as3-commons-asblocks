@@ -27,7 +27,7 @@ package org.as3commons.asblocks.dom
  * @copyright Teoti Graphix, LLC
  * @since 1.0
  */
-public interface IASParameter
+public interface IASParameter extends IScriptElement
 {
 	/**
 	 * The name of the parameter; after the <code>(</code> or <code>,</code>.
@@ -78,7 +78,5 @@ public interface IASParameter
 	 * @param value Sets the methods param tag description for this parameter.
 	 */
 	function setDescription(description:String):void;
-	
-	function toString():String;
 }
 }
