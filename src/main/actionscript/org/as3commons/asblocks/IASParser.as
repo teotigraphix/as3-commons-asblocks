@@ -82,7 +82,7 @@ public interface IASParser
 	 * 
 	 * @since 1.0
 	 */
-	function parseHighlevel(source:String):IASCompilationUnit;
+	function parseTypeBlock(source:String):IASCompilationUnit;
 
 	/**
 	 * Parses the <code>Reader</code>s source code data at a highlevel.
@@ -95,6 +95,10 @@ public interface IASParser
 	 * @since 1.0
 	 * @see #parseHighlevel()
 	 */
-	function parseHighlevelIn(reader:IReader):IASCompilationUnit;
+	function parseTypeBlockIn(reader:IReader):IASCompilationUnit;
+	
+	function parsePackageBlock(source:String):IASCompilationUnit;
+	
+	function parsePackageBlockIn(reader:IReader):IASCompilationUnit;
 }
 }

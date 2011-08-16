@@ -50,22 +50,42 @@ public class ASTASParser implements IASParser
 		return null;
 	}
 	
-	public function parseHighlevel(source:String):IASCompilationUnit
+	public function parseTypeBlock(source:String):IASCompilationUnit
 	{
 		var parser:AS3Parser = ASTUtils.parse(source);
-		parser.setHighlevelParse(true);
+		parser.setTypeBlockParse(true);
 		var ast:LinkedListTree;
 		try {
 			ast = AS3FragmentParser.tree(parser.compilationUnit());
 		} catch (e:RecognitionException) {
 			throw ASTUtils.buildSyntaxException(null, parser, e);
 		} finally {
-			parser.setHighlevelParse(false);
+			parser.setTypeBlockParse(false);
 		}
 		return new ASTASCompilationUnit(ast);
 	}
 	
-	public function parseHighlevelIn(reader:IReader):IASCompilationUnit
+	public function parseTypeBlockIn(reader:IReader):IASCompilationUnit
+	{
+		return null;
+	}
+	
+	public function parsePackageBlock(source:String):IASCompilationUnit
+	{
+		var parser:AS3Parser = ASTUtils.parse(source);
+		parser.setPackageBlockParse(true);
+		var ast:LinkedListTree;
+		try {
+			ast = AS3FragmentParser.tree(parser.compilationUnit());
+		} catch (e:RecognitionException) {
+			throw ASTUtils.buildSyntaxException(null, parser, e);
+		} finally {
+			parser.setPackageBlockParse(false);
+		}
+		return new ASTASCompilationUnit(ast);
+	}
+	
+	public function parsePackageBlockIn(reader:IReader):IASCompilationUnit
 	{
 		return null;
 	}

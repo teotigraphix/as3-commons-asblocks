@@ -45,12 +45,13 @@ import org.as3commons.asblocks.impl.Test_ASTMetaTag;
 import org.as3commons.asblocks.impl.Test_ASTStatementList;
 import org.as3commons.asblocks.impl.Test_BasicUnit;
 import org.as3commons.asblocks.impl.Test_DocComment;
+import org.as3commons.asblocks.parser.antlr.TestLinkedListTree;
 import org.as3commons.asblocks.parser.antlr.Test_AST;
 import org.as3commons.asblocks.parser.antlr.Test_BasicListUpdateDelegate;
 import org.as3commons.asblocks.parser.antlr.Test_LinkedListToken;
 import org.as3commons.asblocks.parser.antlr.Test_LinkedListTokenStream;
-import org.as3commons.asblocks.parser.antlr.TestLinkedListTree;
 import org.as3commons.asblocks.parser.antlr.as3.TestAS3Parser_CompilationUnit;
+import org.as3commons.asblocks.parser.antlr.as3.Test_AS3ParserModes;
 import org.as3commons.asblocks.parser.antlr.asdoc.TestASDocParser;
 
 [Suite]
@@ -59,6 +60,7 @@ public class AllTests
 {
 	// org.as3commons.asblocks.parser
 	
+	public var test_AS3ParserModes:Test_AS3ParserModes;
 	public var testAS3Parser_CompilationUnit:TestAS3Parser_CompilationUnit;
 	public var operatorPrecedenceTests:OperatorPrecedenceTests;
 	

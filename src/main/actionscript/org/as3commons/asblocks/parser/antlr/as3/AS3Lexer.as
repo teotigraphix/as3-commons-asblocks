@@ -1,4 +1,4 @@
-// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g 2011-07-31 13:09:43
+// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g 2011-08-16 07:51:22
 package org.as3commons.asblocks.parser.antlr.as3 {
 
 
@@ -247,13 +247,13 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             super(input, state);
 
             dfa14 = new DFA(this, 14,
-                        "()* loopback of 1757:3: ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )*",
+                        "()* loopback of 1790:3: ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )*",
                         DFA14_eot, DFA14_eof, DFA14_min,
                         DFA14_max, DFA14_accept, DFA14_special,
                         DFA14_transition, DFA14_specialStateTransition);
 
             dfa15 = new DFA(this, 15,
-                        "()* loopback of 1767:3: ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )*",
+                        "()* loopback of 1800:3: ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )*",
                         DFA15_eot, DFA15_eof, DFA15_min,
                         DFA15_max, DFA15_accept, DFA15_special,
                         DFA15_transition, DFA15_specialStateTransition);
@@ -266,15 +266,15 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
 
         }
-        public override function get grammarFileName():String { return "C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g"; }
+        public override function get grammarFileName():String { return "C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g"; }
 
         // $ANTLR start FINAL
         public final function mFINAL():void {
             try {
                 var _type:int = FINAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1577:8: ( 'final' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1577:10: 'final'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1610:8: ( 'final' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1610:10: 'final'
                 {
                 matchString("final"); if (this.state.failed) return ;
 
@@ -294,8 +294,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = OVERRIDE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1578:10: ( 'override' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1578:12: 'override'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1611:10: ( 'override' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1611:12: 'override'
                 {
                 matchString("override"); if (this.state.failed) return ;
 
@@ -315,8 +315,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = INCLUDE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1579:10: ( 'include' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1579:12: 'include'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1612:10: ( 'include' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1612:12: 'include'
                 {
                 matchString("include"); if (this.state.failed) return ;
 
@@ -336,8 +336,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = THROW;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1580:8: ( 'throw' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1580:10: 'throw'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1613:8: ( 'throw' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1613:10: 'throw'
                 {
                 matchString("throw"); if (this.state.failed) return ;
 
@@ -357,8 +357,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = TRY;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1581:6: ( 'try' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1581:8: 'try'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1614:6: ( 'try' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1614:8: 'try'
                 {
                 matchString("try"); if (this.state.failed) return ;
 
@@ -378,8 +378,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = CATCH;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1582:8: ( 'catch' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1582:10: 'catch'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1615:8: ( 'catch' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1615:10: 'catch'
                 {
                 matchString("catch"); if (this.state.failed) return ;
 
@@ -399,8 +399,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = FINALLY;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1583:10: ( 'finally' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1583:12: 'finally'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1616:10: ( 'finally' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1616:12: 'finally'
                 {
                 matchString("finally"); if (this.state.failed) return ;
 
@@ -420,8 +420,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = VOID;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1584:7: ( 'void' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1584:9: 'void'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1617:7: ( 'void' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1617:9: 'void'
                 {
                 matchString("void"); if (this.state.failed) return ;
 
@@ -441,8 +441,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = INSTANCEOF;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1585:12: ( 'instanceof' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1585:14: 'instanceof'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1618:12: ( 'instanceof' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1618:14: 'instanceof'
                 {
                 matchString("instanceof"); if (this.state.failed) return ;
 
@@ -462,8 +462,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = DELETE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1586:10: ( 'delete' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1586:12: 'delete'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1619:10: ( 'delete' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1619:12: 'delete'
                 {
                 matchString("delete"); if (this.state.failed) return ;
 
@@ -483,8 +483,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = TYPEOF;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1587:9: ( 'typeof' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1587:11: 'typeof'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1620:9: ( 'typeof' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1620:11: 'typeof'
                 {
                 matchString("typeof"); if (this.state.failed) return ;
 
@@ -504,8 +504,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = UNDEFINED;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1588:11: ( 'undefined' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1588:13: 'undefined'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1621:11: ( 'undefined' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1621:13: 'undefined'
                 {
                 matchString("undefined"); if (this.state.failed) return ;
 
@@ -525,8 +525,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = NATIVE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1590:9: ( 'native' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1590:11: 'native'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1623:9: ( 'native' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1623:11: 'native'
                 {
                 matchString("native"); if (this.state.failed) return ;
 
@@ -546,8 +546,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = PACKAGE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1592:10: ( 'package' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1592:12: 'package'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1625:10: ( 'package' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1625:12: 'package'
                 {
                 matchString("package"); if (this.state.failed) return ;
 
@@ -567,8 +567,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = PUBLIC;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1593:9: ( 'public' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1593:11: 'public'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1626:9: ( 'public' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1626:11: 'public'
                 {
                 matchString("public"); if (this.state.failed) return ;
 
@@ -588,8 +588,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = PRIVATE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1594:10: ( 'private' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1594:12: 'private'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1627:10: ( 'private' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1627:12: 'private'
                 {
                 matchString("private"); if (this.state.failed) return ;
 
@@ -609,8 +609,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = PROTECTED;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1595:11: ( 'protected' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1595:13: 'protected'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1628:11: ( 'protected' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1628:13: 'protected'
                 {
                 matchString("protected"); if (this.state.failed) return ;
 
@@ -630,8 +630,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = INTERNAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1596:10: ( 'internal' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1596:12: 'internal'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1629:10: ( 'internal' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1629:12: 'internal'
                 {
                 matchString("internal"); if (this.state.failed) return ;
 
@@ -651,8 +651,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = FUNCTION;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1597:10: ( 'function' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1597:12: 'function'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1630:10: ( 'function' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1630:12: 'function'
                 {
                 matchString("function"); if (this.state.failed) return ;
 
@@ -672,8 +672,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = EXTENDS;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1598:10: ( 'extends' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1598:12: 'extends'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1631:10: ( 'extends' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1631:12: 'extends'
                 {
                 matchString("extends"); if (this.state.failed) return ;
 
@@ -693,8 +693,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = IMPLEMENTS;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1599:12: ( 'implements' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1599:14: 'implements'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1632:12: ( 'implements' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1632:14: 'implements'
                 {
                 matchString("implements"); if (this.state.failed) return ;
 
@@ -714,8 +714,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = VAR;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1600:6: ( 'var' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1600:8: 'var'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1633:6: ( 'var' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1633:8: 'var'
                 {
                 matchString("var"); if (this.state.failed) return ;
 
@@ -735,8 +735,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = STATIC;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1601:9: ( 'static' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1601:11: 'static'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1634:9: ( 'static' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1634:11: 'static'
                 {
                 matchString("static"); if (this.state.failed) return ;
 
@@ -756,8 +756,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = IF;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1602:5: ( 'if' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1602:7: 'if'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1635:5: ( 'if' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1635:7: 'if'
                 {
                 matchString("if"); if (this.state.failed) return ;
 
@@ -777,8 +777,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = IMPORT;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1603:9: ( 'import' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1603:11: 'import'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1636:9: ( 'import' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1636:11: 'import'
                 {
                 matchString("import"); if (this.state.failed) return ;
 
@@ -798,8 +798,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = FOR;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1604:6: ( 'for' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1604:8: 'for'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1637:6: ( 'for' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1637:8: 'for'
                 {
                 matchString("for"); if (this.state.failed) return ;
 
@@ -819,8 +819,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = EACH;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1605:7: ( 'each' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1605:9: 'each'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1638:7: ( 'each' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1638:9: 'each'
                 {
                 matchString("each"); if (this.state.failed) return ;
 
@@ -840,8 +840,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = IN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1606:5: ( 'in' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1606:7: 'in'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1639:5: ( 'in' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1639:7: 'in'
                 {
                 matchString("in"); if (this.state.failed) return ;
 
@@ -861,8 +861,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = WHILE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1607:8: ( 'while' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1607:10: 'while'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1640:8: ( 'while' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1640:10: 'while'
                 {
                 matchString("while"); if (this.state.failed) return ;
 
@@ -882,8 +882,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = DO;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1608:5: ( 'do' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1608:7: 'do'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1641:5: ( 'do' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1641:7: 'do'
                 {
                 matchString("do"); if (this.state.failed) return ;
 
@@ -903,8 +903,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = SWITCH;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1609:9: ( 'switch' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1609:11: 'switch'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1642:9: ( 'switch' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1642:11: 'switch'
                 {
                 matchString("switch"); if (this.state.failed) return ;
 
@@ -924,8 +924,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = CASE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1610:7: ( 'case' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1610:9: 'case'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1643:7: ( 'case' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1643:9: 'case'
                 {
                 matchString("case"); if (this.state.failed) return ;
 
@@ -945,8 +945,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = DEFAULT;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1611:10: ( 'default' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1611:12: 'default'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1644:10: ( 'default' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1644:12: 'default'
                 {
                 matchString("default"); if (this.state.failed) return ;
 
@@ -966,8 +966,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = ELSE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1612:7: ( 'else' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1612:9: 'else'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1645:7: ( 'else' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1645:9: 'else'
                 {
                 matchString("else"); if (this.state.failed) return ;
 
@@ -987,8 +987,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = CONST;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1613:8: ( 'const' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1613:10: 'const'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1646:8: ( 'const' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1646:10: 'const'
                 {
                 matchString("const"); if (this.state.failed) return ;
 
@@ -1008,8 +1008,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = CLASS;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1614:8: ( 'class' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1614:10: 'class'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1647:8: ( 'class' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1647:10: 'class'
                 {
                 matchString("class"); if (this.state.failed) return ;
 
@@ -1029,8 +1029,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = INTERFACE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1615:11: ( 'interface' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1615:13: 'interface'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1648:11: ( 'interface' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1648:13: 'interface'
                 {
                 matchString("interface"); if (this.state.failed) return ;
 
@@ -1050,8 +1050,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = TRUE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1616:7: ( 'true' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1616:9: 'true'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1649:7: ( 'true' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1649:9: 'true'
                 {
                 matchString("true"); if (this.state.failed) return ;
 
@@ -1071,8 +1071,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = FALSE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1617:8: ( 'false' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1617:10: 'false'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1650:8: ( 'false' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1650:10: 'false'
                 {
                 matchString("false"); if (this.state.failed) return ;
 
@@ -1092,8 +1092,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = DYNAMIC;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1618:10: ( 'dynamic' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1618:12: 'dynamic'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1651:10: ( 'dynamic' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1651:12: 'dynamic'
                 {
                 matchString("dynamic"); if (this.state.failed) return ;
 
@@ -1113,8 +1113,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = USE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1619:6: ( 'use' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1619:8: 'use'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1652:6: ( 'use' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1652:8: 'use'
                 {
                 matchString("use"); if (this.state.failed) return ;
 
@@ -1134,8 +1134,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = NAMESPACE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1621:11: ( 'namespace' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1621:13: 'namespace'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1654:11: ( 'namespace' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1654:13: 'namespace'
                 {
                 matchString("namespace"); if (this.state.failed) return ;
 
@@ -1155,8 +1155,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = IS;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1622:5: ( 'is' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1622:7: 'is'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1655:5: ( 'is' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1655:7: 'is'
                 {
                 matchString("is"); if (this.state.failed) return ;
 
@@ -1176,8 +1176,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = AS;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1623:5: ( 'as' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1623:7: 'as'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1656:5: ( 'as' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1656:7: 'as'
                 {
                 matchString("as"); if (this.state.failed) return ;
 
@@ -1197,8 +1197,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = GET;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1624:6: ( 'get' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1624:8: 'get'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1657:6: ( 'get' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1657:8: 'get'
                 {
                 matchString("get"); if (this.state.failed) return ;
 
@@ -1218,8 +1218,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = SET;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1625:6: ( 'set' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1625:8: 'set'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1658:6: ( 'set' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1658:8: 'set'
                 {
                 matchString("set"); if (this.state.failed) return ;
 
@@ -1239,8 +1239,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = WITH;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1626:7: ( 'with' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1626:9: 'with'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1659:7: ( 'with' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1659:9: 'with'
                 {
                 matchString("with"); if (this.state.failed) return ;
 
@@ -1260,8 +1260,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = RETURN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1627:9: ( 'return' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1627:11: 'return'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1660:9: ( 'return' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1660:11: 'return'
                 {
                 matchString("return"); if (this.state.failed) return ;
 
@@ -1281,8 +1281,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = CONTINUE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1628:10: ( 'continue' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1628:12: 'continue'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1661:10: ( 'continue' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1661:12: 'continue'
                 {
                 matchString("continue"); if (this.state.failed) return ;
 
@@ -1302,8 +1302,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = BREAK;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1629:8: ( 'break' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1629:10: 'break'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1662:8: ( 'break' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1662:10: 'break'
                 {
                 matchString("break"); if (this.state.failed) return ;
 
@@ -1323,8 +1323,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = NULL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1630:7: ( 'null' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1630:9: 'null'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1663:7: ( 'null' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1663:9: 'null'
                 {
                 matchString("null"); if (this.state.failed) return ;
 
@@ -1344,8 +1344,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = NEW;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1631:6: ( 'new' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1631:8: 'new'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1664:6: ( 'new' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1664:8: 'new'
                 {
                 matchString("new"); if (this.state.failed) return ;
 
@@ -1365,8 +1365,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = SUPER;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1632:8: ( 'super' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1632:10: 'super'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1665:8: ( 'super' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1665:10: 'super'
                 {
                 matchString("super"); if (this.state.failed) return ;
 
@@ -1386,8 +1386,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = THIS;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1633:7: ( 'this' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1633:9: 'this'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1666:7: ( 'this' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1666:9: 'this'
                 {
                 matchString("this"); if (this.state.failed) return ;
 
@@ -1407,8 +1407,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = QUESTION;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1636:10: ( '?' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1636:12: '?'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1669:10: ( '?' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1669:12: '?'
                 {
                 match(63); if (this.state.failed) return ;
 
@@ -1427,8 +1427,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = LPAREN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1637:9: ( '(' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1637:11: '('
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1670:9: ( '(' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1670:11: '('
                 {
                 match(40); if (this.state.failed) return ;
 
@@ -1447,8 +1447,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = RPAREN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1638:9: ( ')' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1638:11: ')'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1671:9: ( ')' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1671:11: ')'
                 {
                 match(41); if (this.state.failed) return ;
 
@@ -1467,8 +1467,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = LBRACK;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1639:9: ( '[' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1639:11: '['
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1672:9: ( '[' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1672:11: '['
                 {
                 match(91); if (this.state.failed) return ;
 
@@ -1487,8 +1487,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = RBRACK;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1640:9: ( ']' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1640:11: ']'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1673:9: ( ']' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1673:11: ']'
                 {
                 match(93); if (this.state.failed) return ;
 
@@ -1507,8 +1507,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = LBRACE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1641:9: ( '{' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1641:11: '{'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1674:9: ( '{' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1674:11: '{'
                 {
                 match(123); if (this.state.failed) return ;
 
@@ -1527,8 +1527,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = RBRACE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1642:9: ( '}' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1642:11: '}'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1675:9: ( '}' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1675:11: '}'
                 {
                 match(125); if (this.state.failed) return ;
 
@@ -1547,8 +1547,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = COLON;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1643:8: ( ':' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1643:10: ':'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1676:8: ( ':' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1676:10: ':'
                 {
                 match(58); if (this.state.failed) return ;
 
@@ -1567,8 +1567,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = DBL_COLON;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1644:11: ( '::' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1644:13: '::'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1677:11: ( '::' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1677:13: '::'
                 {
                 matchString("::"); if (this.state.failed) return ;
 
@@ -1588,8 +1588,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = COMMA;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1645:8: ( ',' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1645:10: ','
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1678:8: ( ',' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1678:10: ','
                 {
                 match(44); if (this.state.failed) return ;
 
@@ -1608,8 +1608,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = ASSIGN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1646:9: ( '=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1646:11: '='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1679:9: ( '=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1679:11: '='
                 {
                 match(61); if (this.state.failed) return ;
 
@@ -1628,8 +1628,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = EQUAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1647:8: ( '==' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1647:10: '=='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1680:8: ( '==' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1680:10: '=='
                 {
                 matchString("=="); if (this.state.failed) return ;
 
@@ -1649,8 +1649,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = STRICT_EQUAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1648:14: ( '===' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1648:16: '==='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1681:14: ( '===' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1681:16: '==='
                 {
                 matchString("==="); if (this.state.failed) return ;
 
@@ -1670,8 +1670,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = LNOT;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1649:7: ( '!' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1649:9: '!'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1682:7: ( '!' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1682:9: '!'
                 {
                 match(33); if (this.state.failed) return ;
 
@@ -1690,8 +1690,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = BNOT;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1650:7: ( '~' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1650:9: '~'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1683:7: ( '~' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1683:9: '~'
                 {
                 match(126); if (this.state.failed) return ;
 
@@ -1710,8 +1710,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = NOT_EQUAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1651:11: ( '!=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1651:13: '!='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1684:11: ( '!=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1684:13: '!='
                 {
                 matchString("!="); if (this.state.failed) return ;
 
@@ -1731,8 +1731,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = STRICT_NOT_EQUAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1652:17: ( '!==' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1652:19: '!=='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1685:17: ( '!==' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1685:19: '!=='
                 {
                 matchString("!=="); if (this.state.failed) return ;
 
@@ -1752,8 +1752,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = PLUS;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1653:7: ( '+' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1653:9: '+'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1686:7: ( '+' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1686:9: '+'
                 {
                 match(43); if (this.state.failed) return ;
 
@@ -1772,8 +1772,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = PLUS_ASSIGN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1654:13: ( '+=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1654:15: '+='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1687:13: ( '+=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1687:15: '+='
                 {
                 matchString("+="); if (this.state.failed) return ;
 
@@ -1793,8 +1793,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = INC;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1655:6: ( '++' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1655:8: '++'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1688:6: ( '++' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1688:8: '++'
                 {
                 matchString("++"); if (this.state.failed) return ;
 
@@ -1814,8 +1814,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = MINUS;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1656:8: ( '-' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1656:10: '-'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1689:8: ( '-' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1689:10: '-'
                 {
                 match(45); if (this.state.failed) return ;
 
@@ -1834,8 +1834,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = MINUS_ASSIGN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1657:14: ( '-=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1657:16: '-='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1690:14: ( '-=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1690:16: '-='
                 {
                 matchString("-="); if (this.state.failed) return ;
 
@@ -1855,8 +1855,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = DEC;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1658:6: ( '--' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1658:8: '--'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1691:6: ( '--' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1691:8: '--'
                 {
                 matchString("--"); if (this.state.failed) return ;
 
@@ -1876,8 +1876,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = STAR;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1659:7: ( '*' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1659:9: '*'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1692:7: ( '*' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1692:9: '*'
                 {
                 match(42); if (this.state.failed) return ;
 
@@ -1896,8 +1896,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = MOD;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1662:6: ( '%' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1662:8: '%'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1695:6: ( '%' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1695:8: '%'
                 {
                 match(37); if (this.state.failed) return ;
 
@@ -1916,8 +1916,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = MOD_ASSIGN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1663:12: ( '%=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1663:14: '%='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1696:12: ( '%=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1696:14: '%='
                 {
                 matchString("%="); if (this.state.failed) return ;
 
@@ -1937,8 +1937,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = GT;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1669:5: ( '>' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1669:7: '>'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1702:5: ( '>' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1702:7: '>'
                 {
                 match(62); if (this.state.failed) return ;
 
@@ -1957,8 +1957,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = BXOR;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1670:7: ( '^' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1670:9: '^'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1703:7: ( '^' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1703:9: '^'
                 {
                 match(94); if (this.state.failed) return ;
 
@@ -1977,8 +1977,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = BXOR_ASSIGN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1671:13: ( '^=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1671:15: '^='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1704:13: ( '^=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1704:15: '^='
                 {
                 matchString("^="); if (this.state.failed) return ;
 
@@ -1998,8 +1998,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = BOR;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1672:6: ( '|' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1672:8: '|'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1705:6: ( '|' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1705:8: '|'
                 {
                 match(124); if (this.state.failed) return ;
 
@@ -2018,8 +2018,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = BOR_ASSIGN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1673:12: ( '|=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1673:14: '|='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1706:12: ( '|=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1706:14: '|='
                 {
                 matchString("|="); if (this.state.failed) return ;
 
@@ -2039,8 +2039,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = LOR;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1674:6: ( '||' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1674:8: '||'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1707:6: ( '||' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1707:8: '||'
                 {
                 matchString("||"); if (this.state.failed) return ;
 
@@ -2060,8 +2060,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = BAND;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1675:7: ( '&' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1675:9: '&'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1708:7: ( '&' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1708:9: '&'
                 {
                 match(38); if (this.state.failed) return ;
 
@@ -2080,8 +2080,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = BAND_ASSIGN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1676:13: ( '&=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1676:15: '&='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1709:13: ( '&=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1709:15: '&='
                 {
                 matchString("&="); if (this.state.failed) return ;
 
@@ -2101,8 +2101,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = LAND;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1677:7: ( '&&' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1677:9: '&&'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1710:7: ( '&&' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1710:9: '&&'
                 {
                 matchString("&&"); if (this.state.failed) return ;
 
@@ -2122,8 +2122,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = LAND_ASSIGN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1678:13: ( '&&=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1678:15: '&&='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1711:13: ( '&&=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1711:15: '&&='
                 {
                 matchString("&&="); if (this.state.failed) return ;
 
@@ -2143,8 +2143,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = LOR_ASSIGN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1679:12: ( '||=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1679:14: '||='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1712:12: ( '||=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1712:14: '||='
                 {
                 matchString("||="); if (this.state.failed) return ;
 
@@ -2164,8 +2164,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = E4X_ATTRI;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1680:11: ( '@' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1680:13: '@'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1713:11: ( '@' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1713:13: '@'
                 {
                 match(64); if (this.state.failed) return ;
 
@@ -2184,8 +2184,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = SEMI;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1681:7: ( ';' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1681:9: ';'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1714:7: ( ';' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1714:9: ';'
                 {
                 match(59); if (this.state.failed) return ;
 
@@ -2204,8 +2204,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = BSLASH;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1682:9: ( '\\\\' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1682:11: '\\\\'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1715:9: ( '\\\\' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1715:11: '\\\\'
                 {
                 match(92); if (this.state.failed) return ;
 
@@ -2224,8 +2224,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = DOT;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1684:6: ( '.' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1684:8: '.'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1717:6: ( '.' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1717:8: '.'
                 {
                 match(46); if (this.state.failed) return ;
 
@@ -2244,8 +2244,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = E4X_DESC;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1685:10: ( '..' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1685:12: '..'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1718:10: ( '..' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1718:12: '..'
                 {
                 matchString(".."); if (this.state.failed) return ;
 
@@ -2265,8 +2265,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = REST;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1686:7: ( '...' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1686:9: '...'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1719:7: ( '...' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1719:9: '...'
                 {
                 matchString("..."); if (this.state.failed) return ;
 
@@ -2286,8 +2286,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = DIV_ASSIGN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1688:12: ( '/=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1688:14: '/='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1721:12: ( '/=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1721:14: '/='
                 {
                 matchString("/="); if (this.state.failed) return ;
 
@@ -2307,8 +2307,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = DIV;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1689:5: ( '/' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1689:7: '/'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1722:5: ( '/' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1722:7: '/'
                 {
                 match(47); if (this.state.failed) return ;
 
@@ -2327,8 +2327,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = POST;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1691:7: ( '.<' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1691:9: '.<'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1724:7: ( '.<' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1724:9: '.<'
                 {
                 matchString(".<"); if (this.state.failed) return ;
 
@@ -2348,8 +2348,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = SL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1693:5: ( '<<' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1693:7: '<<'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1726:5: ( '<<' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1726:7: '<<'
                 {
                 matchString("<<"); if (this.state.failed) return ;
 
@@ -2369,8 +2369,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = SL_ASSIGN;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1694:11: ( '<<=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1694:13: '<<='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:11: ( '<<=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:13: '<<='
                 {
                 matchString("<<="); if (this.state.failed) return ;
 
@@ -2390,8 +2390,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = LE;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1695:5: ( '<=' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1695:7: '<='
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1728:5: ( '<=' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1728:7: '<='
                 {
                 matchString("<="); if (this.state.failed) return ;
 
@@ -2411,8 +2411,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = LT;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1696:5: ( '<' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1696:7: '<'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1729:5: ( '<' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1729:7: '<'
                 {
                 match(60); if (this.state.failed) return ;
 
@@ -2431,8 +2431,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = REGEXP_LITERAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1702:2: ({...}? => '/' REGEX_BODY '/' ( REGEX_POSTFIX )? )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1702:4: {...}? => '/' REGEX_BODY '/' ( REGEX_POSTFIX )?
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:2: ({...}? => '/' REGEX_BODY '/' ( REGEX_POSTFIX )? )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:4: {...}? => '/' REGEX_BODY '/' ( REGEX_POSTFIX )?
                 {
                 if ( !(( constantIsOk() )) ) {
                     if (this.state.backtracking>0) {this.state.failed=true; return ;}
@@ -2441,7 +2441,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 match(47); if (this.state.failed) return ;
                 mREGEX_BODY(); if (this.state.failed) return ;
                 match(47); if (this.state.failed) return ;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1702:45: ( REGEX_POSTFIX )?
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:45: ( REGEX_POSTFIX )?
                 var alt1:int=2;
                 var LA1_0:int = input.LA(1);
 
@@ -2450,7 +2450,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt1) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1702:45: REGEX_POSTFIX
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:45: REGEX_POSTFIX
                         {
                         mREGEX_POSTFIX(); if (this.state.failed) return ;
 
@@ -2473,10 +2473,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start REGEX_POSTFIX
         public final function mREGEX_POSTFIX():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1706:2: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+ )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1706:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1739:2: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+ )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1739:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+
                 {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1706:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1739:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+
                 var cnt2:int=0;
                 loop2:
                 do {
@@ -2490,7 +2490,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt2) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
                 	    {
                 	    if ( input.LA(1)==36||(input.LA(1)>=48 && input.LA(1)<=57)||(input.LA(1)>=65 && input.LA(1)<=90)||input.LA(1)==95||(input.LA(1)>=97 && input.LA(1)<=122) ) {
                 	        input.consume();
@@ -2526,10 +2526,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start REGEX_BODY
         public final function mREGEX_BODY():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1710:2: ( ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) ) ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )* )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1710:4: ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) ) ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1743:2: ( ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) ) ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )* )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1743:4: ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) ) ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )*
                 {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1710:4: ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1743:4: ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )
                 var alt3:int=2;
                 var LA3_0:int = input.LA(1);
 
@@ -2546,10 +2546,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt3) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1711:4: (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1744:4: (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) )
                         {
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1711:4: (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) )
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1711:6: ~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1744:4: (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1744:6: ~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' )
                         {
                         if ( (input.LA(1)>=0 && input.LA(1)<=9)||(input.LA(1)>=11 && input.LA(1)<=12)||(input.LA(1)>=14 && input.LA(1)<=41)||(input.LA(1)>=43 && input.LA(1)<=46)||(input.LA(1)>=48 && input.LA(1)<=91)||(input.LA(1)>=93 && input.LA(1)<=65535) ) {
                             input.consume();
@@ -2567,11 +2567,11 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1713:4: '\\\\' (~ ( '\\n' | '\\r' ) )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1746:4: '\\\\' (~ ( '\\n' | '\\r' ) )
                         {
                         match(92); if (this.state.failed) return ;
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1713:8: (~ ( '\\n' | '\\r' ) )
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1713:9: ~ ( '\\n' | '\\r' )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1746:8: (~ ( '\\n' | '\\r' ) )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1746:9: ~ ( '\\n' | '\\r' )
                         {
                         if ( (input.LA(1)>=0 && input.LA(1)<=9)||(input.LA(1)>=11 && input.LA(1)<=12)||(input.LA(1)>=14 && input.LA(1)<=65535) ) {
                             input.consume();
@@ -2591,7 +2591,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                 }
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1715:3: ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1748:3: ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )*
                 loop4:
                 do {
                     var alt4:int=3;
@@ -2607,10 +2607,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt4) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1716:4: (~ ( '\\n' | '\\r' | '/' | '\\\\' ) )
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1749:4: (~ ( '\\n' | '\\r' | '/' | '\\\\' ) )
                 	    {
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1716:4: (~ ( '\\n' | '\\r' | '/' | '\\\\' ) )
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1716:5: ~ ( '\\n' | '\\r' | '/' | '\\\\' )
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1749:4: (~ ( '\\n' | '\\r' | '/' | '\\\\' ) )
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1749:5: ~ ( '\\n' | '\\r' | '/' | '\\\\' )
                 	    {
                 	    if ( (input.LA(1)>=0 && input.LA(1)<=9)||(input.LA(1)>=11 && input.LA(1)<=12)||(input.LA(1)>=14 && input.LA(1)<=46)||(input.LA(1)>=48 && input.LA(1)<=91)||(input.LA(1)>=93 && input.LA(1)<=65535) ) {
                 	        input.consume();
@@ -2628,11 +2628,11 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 	    }
                 	    break;
                 	case 2 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1718:4: '\\\\' (~ ( '\\n' | '\\r' ) )
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1751:4: '\\\\' (~ ( '\\n' | '\\r' ) )
                 	    {
                 	    match(92); if (this.state.failed) return ;
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1718:8: (~ ( '\\n' | '\\r' ) )
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1718:9: ~ ( '\\n' | '\\r' )
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1751:8: (~ ( '\\n' | '\\r' ) )
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1751:9: ~ ( '\\n' | '\\r' )
                 	    {
                 	    if ( (input.LA(1)>=0 && input.LA(1)<=9)||(input.LA(1)>=11 && input.LA(1)<=12)||(input.LA(1)>=14 && input.LA(1)<=65535) ) {
                 	        input.consume();
@@ -2669,8 +2669,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = XML_LITERAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1723:2: ( ( XML_LITERAL )=> XML_SUBTREE )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1723:4: ( XML_LITERAL )=> XML_SUBTREE
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:2: ( ( XML_LITERAL )=> XML_SUBTREE )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:4: ( XML_LITERAL )=> XML_SUBTREE
                 {
                 mXML_SUBTREE(); if (this.state.failed) return ;
 
@@ -2687,11 +2687,11 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start XML_SUBTREE
         public final function mXML_SUBTREE():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:2: ( '<' ( IDENT | XML_BINDING ) ( XML_WS | XML_ATTRIBUTE )* ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:4: '<' ( IDENT | XML_BINDING ) ( XML_WS | XML_ATTRIBUTE )* ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1760:2: ( '<' ( IDENT | XML_BINDING ) ( XML_WS | XML_ATTRIBUTE )* ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1760:4: '<' ( IDENT | XML_BINDING ) ( XML_WS | XML_ATTRIBUTE )* ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' )
                 {
                 match(60); if (this.state.failed) return ;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:8: ( IDENT | XML_BINDING )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1760:8: ( IDENT | XML_BINDING )
                 var alt5:int=2;
                 var LA5_0:int = input.LA(1);
 
@@ -2708,14 +2708,14 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt5) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:9: IDENT
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1760:9: IDENT
                         {
                         mIDENT(); if (this.state.failed) return ;
 
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:17: XML_BINDING
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1760:17: XML_BINDING
                         {
                         mXML_BINDING(); if (this.state.failed) return ;
 
@@ -2724,7 +2724,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                 }
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:30: ( XML_WS | XML_ATTRIBUTE )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1760:30: ( XML_WS | XML_ATTRIBUTE )*
                 loop6:
                 do {
                     var alt6:int=3;
@@ -2740,14 +2740,14 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt6) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:31: XML_WS
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1760:31: XML_WS
                 	    {
                 	    mXML_WS(); if (this.state.failed) return ;
 
                 	    }
                 	    break;
                 	case 2 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:40: XML_ATTRIBUTE
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1760:40: XML_ATTRIBUTE
                 	    {
                 	    mXML_ATTRIBUTE(); if (this.state.failed) return ;
 
@@ -2759,7 +2759,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                     }
                 } while (true);
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1728:3: ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1761:3: ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' )
                 var alt8:int=2;
                 var LA8_0:int = input.LA(1);
 
@@ -2776,10 +2776,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt8) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1728:5: '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1761:5: '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>'
                         {
                         match(62); if (this.state.failed) return ;
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1728:9: ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )*
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1761:9: ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )*
                         loop7:
                         do {
                             var alt7:int=6;
@@ -2816,35 +2816,35 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                             switch (alt7) {
                         	case 1 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1728:10: XML_SUBTREE
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1761:10: XML_SUBTREE
                         	    {
                         	    mXML_SUBTREE(); if (this.state.failed) return ;
 
                         	    }
                         	    break;
                         	case 2 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1728:24: XML_TEXTNODE
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1761:24: XML_TEXTNODE
                         	    {
                         	    mXML_TEXTNODE(); if (this.state.failed) return ;
 
                         	    }
                         	    break;
                         	case 3 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1728:39: XML_COMMENT
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1761:39: XML_COMMENT
                         	    {
                         	    mXML_COMMENT(); if (this.state.failed) return ;
 
                         	    }
                         	    break;
                         	case 4 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1728:53: XML_CDATA
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1761:53: XML_CDATA
                         	    {
                         	    mXML_CDATA(); if (this.state.failed) return ;
 
                         	    }
                         	    break;
                         	case 5 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1728:65: XML_BINDING
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1761:65: XML_BINDING
                         	    {
                         	    mXML_BINDING(); if (this.state.failed) return ;
 
@@ -2864,7 +2864,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1730:5: '/>'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1763:5: '/>'
                         {
                         matchString("/>"); if (this.state.failed) return ;
 
@@ -2886,11 +2886,11 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start XML_ATTRIBUTE
         public final function mXML_ATTRIBUTE():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:2: ( IDENT ( XML_WS )* ASSIGN ( XML_WS )* ( STRING_LITERAL | XML_BINDING ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:4: IDENT ( XML_WS )* ASSIGN ( XML_WS )* ( STRING_LITERAL | XML_BINDING )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:2: ( IDENT ( XML_WS )* ASSIGN ( XML_WS )* ( STRING_LITERAL | XML_BINDING ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:4: IDENT ( XML_WS )* ASSIGN ( XML_WS )* ( STRING_LITERAL | XML_BINDING )
                 {
                 mIDENT(); if (this.state.failed) return ;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:10: ( XML_WS )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:10: ( XML_WS )*
                 loop9:
                 do {
                     var alt9:int=2;
@@ -2903,7 +2903,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt9) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:10: XML_WS
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:10: XML_WS
                 	    {
                 	    mXML_WS(); if (this.state.failed) return ;
 
@@ -2916,7 +2916,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 } while (true);
 
                 mASSIGN(); if (this.state.failed) return ;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:25: ( XML_WS )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:25: ( XML_WS )*
                 loop10:
                 do {
                     var alt10:int=2;
@@ -2929,7 +2929,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt10) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:25: XML_WS
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:25: XML_WS
                 	    {
                 	    mXML_WS(); if (this.state.failed) return ;
 
@@ -2941,7 +2941,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                     }
                 } while (true);
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:33: ( STRING_LITERAL | XML_BINDING )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:33: ( STRING_LITERAL | XML_BINDING )
                 var alt11:int=2;
                 var LA11_0:int = input.LA(1);
 
@@ -2958,14 +2958,14 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt11) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:34: STRING_LITERAL
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:34: STRING_LITERAL
                         {
                         mSTRING_LITERAL(); if (this.state.failed) return ;
 
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1735:51: XML_BINDING
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:51: XML_BINDING
                         {
                         mXML_BINDING(); if (this.state.failed) return ;
 
@@ -2986,8 +2986,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start XML_BINDING
         public final function mXML_BINDING():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1739:2: ( '{' XML_AS3_EXPRESSION '}' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1739:4: '{' XML_AS3_EXPRESSION '}'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1772:2: ( '{' XML_AS3_EXPRESSION '}' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1772:4: '{' XML_AS3_EXPRESSION '}'
                 {
                 match(123); if (this.state.failed) return ;
                 mXML_AS3_EXPRESSION(); if (this.state.failed) return ;
@@ -3004,10 +3004,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start XML_AS3_EXPRESSION
         public final function mXML_AS3_EXPRESSION():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1744:2: ( (~ ( '{' | '}' ) )* )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1744:4: (~ ( '{' | '}' ) )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1777:2: ( (~ ( '{' | '}' ) )* )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1777:4: (~ ( '{' | '}' ) )*
                 {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1744:4: (~ ( '{' | '}' ) )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1777:4: (~ ( '{' | '}' ) )*
                 loop12:
                 do {
                     var alt12:int=2;
@@ -3020,7 +3020,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt12) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1744:5: ~ ( '{' | '}' )
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1777:5: ~ ( '{' | '}' )
                 	    {
                 	    if ( (input.LA(1)>=0 && input.LA(1)<=122)||input.LA(1)==124||(input.LA(1)>=126 && input.LA(1)<=65535) ) {
                 	        input.consume();
@@ -3052,10 +3052,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start XML_TEXTNODE
         public final function mXML_TEXTNODE():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1748:2: ( ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1748:4: ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1781:2: ( ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1781:4: ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) )
                 {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1748:4: ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1781:4: ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) )
                 var alt13:int=3;
                 var LA13_0:int = input.LA(1);
 
@@ -3075,21 +3075,21 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt13) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1749:4: XML_WS
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1782:4: XML_WS
                         {
                         mXML_WS(); if (this.state.failed) return ;
 
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1750:6: ( '/' ~ '>' )=> '/'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1783:6: ( '/' ~ '>' )=> '/'
                         {
                         match(47); if (this.state.failed) return ;
 
                         }
                         break;
                     case 3 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1751:6: ~ ( '<' | '{' | '/' | XML_WS )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1784:6: ~ ( '<' | '{' | '/' | XML_WS )
                         {
                         if ( (input.LA(1)>=0 && input.LA(1)<=8)||input.LA(1)==11||(input.LA(1)>=14 && input.LA(1)<=31)||(input.LA(1)>=33 && input.LA(1)<=46)||(input.LA(1)>=48 && input.LA(1)<=59)||(input.LA(1)>=61 && input.LA(1)<=122)||(input.LA(1)>=124 && input.LA(1)<=65535) ) {
                             input.consume();
@@ -3118,26 +3118,26 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start XML_COMMENT
         public final function mXML_COMMENT():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:2: ( '<!--' ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )* '-->' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:4: '<!--' ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )* '-->'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1789:2: ( '<!--' ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )* '-->' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1789:4: '<!--' ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )* '-->'
                 {
                 matchString("<!--"); if (this.state.failed) return ;
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1757:3: ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1790:3: ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )*
                 loop14:
                 do {
                     var alt14:int=4;
                     alt14 = dfa14.predict(input);
                     switch (alt14) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1758:3: XML_WS
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1791:3: XML_WS
                 	    {
                 	    mXML_WS(); if (this.state.failed) return ;
 
                 	    }
                 	    break;
                 	case 2 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1759:5: ~ ( '-' | XML_WS )
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1792:5: ~ ( '-' | XML_WS )
                 	    {
                 	    if ( (input.LA(1)>=0 && input.LA(1)<=8)||input.LA(1)==11||(input.LA(1)>=14 && input.LA(1)<=31)||(input.LA(1)>=33 && input.LA(1)<=44)||(input.LA(1)>=46 && input.LA(1)<=65535) ) {
                 	        input.consume();
@@ -3152,7 +3152,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 	    }
                 	    break;
                 	case 3 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1760:5: ( '-' ~ '-' )=> '-'
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1793:5: ( '-' ~ '-' )=> '-'
                 	    {
                 	    match(45); if (this.state.failed) return ;
 
@@ -3178,33 +3178,33 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start XML_CDATA
         public final function mXML_CDATA():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1766:2: ( '<![CDATA[' ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )* ']]>' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1766:4: '<![CDATA[' ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )* ']]>'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1799:2: ( '<![CDATA[' ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )* ']]>' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1799:4: '<![CDATA[' ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )* ']]>'
                 {
                 matchString("<![CDATA["); if (this.state.failed) return ;
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1767:3: ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1800:3: ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )*
                 loop15:
                 do {
                     var alt15:int=4;
                     alt15 = dfa15.predict(input);
                     switch (alt15) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1767:5: XML_WS
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1800:5: XML_WS
                 	    {
                 	    mXML_WS(); if (this.state.failed) return ;
 
                 	    }
                 	    break;
                 	case 2 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:12: ( ']' ~ ']' )=> ']'
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1801:12: ( ']' ~ ']' )=> ']'
                 	    {
                 	    match(93); if (this.state.failed) return ;
 
                 	    }
                 	    break;
                 	case 3 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1769:12: ~ ( ']' | XML_WS )
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1802:12: ~ ( ']' | XML_WS )
                 	    {
                 	    if ( (input.LA(1)>=0 && input.LA(1)<=8)||input.LA(1)==11||(input.LA(1)>=14 && input.LA(1)<=31)||(input.LA(1)>=33 && input.LA(1)<=92)||(input.LA(1)>=94 && input.LA(1)<=65535) ) {
                 	        input.consume();
@@ -3238,8 +3238,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start XML_WS
         public final function mXML_WS():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1775:2: ( ' ' | '\\t' | '\\f' | '\\r' | '\\n' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1808:2: ( ' ' | '\\t' | '\\f' | '\\r' | '\\n' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
                 {
                 if ( (input.LA(1)>=9 && input.LA(1)<=10)||(input.LA(1)>=12 && input.LA(1)<=13)||input.LA(1)==32 ) {
                     input.consume();
@@ -3264,8 +3264,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = IDENT;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1784:2: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )* )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1784:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1817:2: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )* )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1817:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )*
                 {
                 if ( input.LA(1)==36||(input.LA(1)>=65 && input.LA(1)<=90)||input.LA(1)==95||(input.LA(1)>=97 && input.LA(1)<=122) ) {
                     input.consume();
@@ -3276,7 +3276,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                     throw recover(new MismatchedSetException(null,input));
                 }
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1785:3: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1818:3: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )*
                 loop16:
                 do {
                     var alt16:int=2;
@@ -3289,7 +3289,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt16) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
                 	    {
                 	    if ( input.LA(1)==36||(input.LA(1)>=48 && input.LA(1)<=57)||(input.LA(1)>=65 && input.LA(1)<=90)||input.LA(1)==95||(input.LA(1)>=97 && input.LA(1)<=122) ) {
                 	        input.consume();
@@ -3325,7 +3325,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = STRING_LITERAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2031:2: ( '\"' ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )* '\"' | '\\'' ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )* '\\'' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2064:2: ( '\"' ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )* '\"' | '\\'' ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )* '\\'' )
                 var alt19:int=2;
                 var LA19_0:int = input.LA(1);
 
@@ -3342,10 +3342,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt19) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2031:4: '\"' ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )* '\"'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2064:4: '\"' ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )* '\"'
                         {
                         match(34); if (this.state.failed) return ;
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2031:8: ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )*
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2064:8: ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )*
                         loop17:
                         do {
                             var alt17:int=3;
@@ -3361,14 +3361,14 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                             switch (alt17) {
                         	case 1 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2031:9: ESC
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2064:9: ESC
                         	    {
                         	    mESC(); if (this.state.failed) return ;
 
                         	    }
                         	    break;
                         	case 2 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2031:13: ~ ( '\"' | '\\\\' | '\\n' | '\\r' )
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2064:13: ~ ( '\"' | '\\\\' | '\\n' | '\\r' )
                         	    {
                         	    if ( (input.LA(1)>=0 && input.LA(1)<=9)||(input.LA(1)>=11 && input.LA(1)<=12)||(input.LA(1)>=14 && input.LA(1)<=33)||(input.LA(1)>=35 && input.LA(1)<=91)||(input.LA(1)>=93 && input.LA(1)<=65535) ) {
                         	        input.consume();
@@ -3393,10 +3393,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2032:4: '\\'' ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )* '\\''
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:4: '\\'' ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )* '\\''
                         {
                         match(39); if (this.state.failed) return ;
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2032:9: ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )*
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:9: ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )*
                         loop18:
                         do {
                             var alt18:int=3;
@@ -3412,14 +3412,14 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                             switch (alt18) {
                         	case 1 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2032:10: ESC
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:10: ESC
                         	    {
                         	    mESC(); if (this.state.failed) return ;
 
                         	    }
                         	    break;
                         	case 2 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2032:14: ~ ( '\\'' | '\\\\' | '\\n' | '\\r' )
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:14: ~ ( '\\'' | '\\\\' | '\\n' | '\\r' )
                         	    {
                         	    if ( (input.LA(1)>=0 && input.LA(1)<=9)||(input.LA(1)>=11 && input.LA(1)<=12)||(input.LA(1)>=14 && input.LA(1)<=38)||(input.LA(1)>=40 && input.LA(1)<=91)||(input.LA(1)>=93 && input.LA(1)<=65535) ) {
                         	        input.consume();
@@ -3458,8 +3458,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = HEX_LITERAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2035:13: ( '0' ( 'x' | 'X' ) ( HEX_DIGIT )+ )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2035:15: '0' ( 'x' | 'X' ) ( HEX_DIGIT )+
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2068:13: ( '0' ( 'x' | 'X' ) ( HEX_DIGIT )+ )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2068:15: '0' ( 'x' | 'X' ) ( HEX_DIGIT )+
                 {
                 match(48); if (this.state.failed) return ;
                 if ( input.LA(1)==88||input.LA(1)==120 ) {
@@ -3471,7 +3471,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                     throw recover(new MismatchedSetException(null,input));
                 }
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2035:29: ( HEX_DIGIT )+
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2068:29: ( HEX_DIGIT )+
                 var cnt20:int=0;
                 loop20:
                 do {
@@ -3485,7 +3485,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt20) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2035:29: HEX_DIGIT
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2068:29: HEX_DIGIT
                 	    {
                 	    mHEX_DIGIT(); if (this.state.failed) return ;
 
@@ -3517,10 +3517,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = DECIMAL_LITERAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2037:17: ( ( '0' | '1' .. '9' ( '0' .. '9' )* ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2037:19: ( '0' | '1' .. '9' ( '0' .. '9' )* )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:17: ( ( '0' | '1' .. '9' ( '0' .. '9' )* ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:19: ( '0' | '1' .. '9' ( '0' .. '9' )* )
                 {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2037:19: ( '0' | '1' .. '9' ( '0' .. '9' )* )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:19: ( '0' | '1' .. '9' ( '0' .. '9' )* )
                 var alt22:int=2;
                 var LA22_0:int = input.LA(1);
 
@@ -3537,17 +3537,17 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt22) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2037:20: '0'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:20: '0'
                         {
                         match(48); if (this.state.failed) return ;
 
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2037:26: '1' .. '9' ( '0' .. '9' )*
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:26: '1' .. '9' ( '0' .. '9' )*
                         {
                         matchRange(49,57); if (this.state.failed) return ;
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2037:35: ( '0' .. '9' )*
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:35: ( '0' .. '9' )*
                         loop21:
                         do {
                             var alt21:int=2;
@@ -3560,7 +3560,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                             switch (alt21) {
                         	case 1 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2037:35: '0' .. '9'
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:35: '0' .. '9'
                         	    {
                         	    matchRange(48,57); if (this.state.failed) return ;
 
@@ -3594,11 +3594,11 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = OCTAL_LITERAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2039:15: ( '0' ( '0' .. '7' )+ )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2039:17: '0' ( '0' .. '7' )+
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:15: ( '0' ( '0' .. '7' )+ )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:17: '0' ( '0' .. '7' )+
                 {
                 match(48); if (this.state.failed) return ;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2039:21: ( '0' .. '7' )+
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:21: ( '0' .. '7' )+
                 var cnt23:int=0;
                 loop23:
                 do {
@@ -3612,7 +3612,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt23) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2039:22: '0' .. '7'
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:22: '0' .. '7'
                 	    {
                 	    matchRange(48,55); if (this.state.failed) return ;
 
@@ -3644,7 +3644,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = FLOAT_LITERAL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:2: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( EXPONENT )? | '.' ( '0' .. '9' )+ ( EXPONENT )? )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2075:2: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( EXPONENT )? | '.' ( '0' .. '9' )+ ( EXPONENT )? )
                 var alt29:int=2;
                 var LA29_0:int = input.LA(1);
 
@@ -3661,9 +3661,9 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt29) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:4: ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( EXPONENT )?
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2075:4: ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( EXPONENT )?
                         {
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:4: ( '0' .. '9' )+
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2075:4: ( '0' .. '9' )+
                         var cnt24:int=0;
                         loop24:
                         do {
@@ -3677,7 +3677,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                             switch (alt24) {
                         	case 1 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:5: '0' .. '9'
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2075:5: '0' .. '9'
                         	    {
                         	    matchRange(48,57); if (this.state.failed) return ;
 
@@ -3694,7 +3694,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         } while (true);
 
                         match(46); if (this.state.failed) return ;
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:20: ( '0' .. '9' )*
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2075:20: ( '0' .. '9' )*
                         loop25:
                         do {
                             var alt25:int=2;
@@ -3707,7 +3707,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                             switch (alt25) {
                         	case 1 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:21: '0' .. '9'
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2075:21: '0' .. '9'
                         	    {
                         	    matchRange(48,57); if (this.state.failed) return ;
 
@@ -3719,7 +3719,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                             }
                         } while (true);
 
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:32: ( EXPONENT )?
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2075:32: ( EXPONENT )?
                         var alt26:int=2;
                         var LA26_0:int = input.LA(1);
 
@@ -3728,7 +3728,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         }
                         switch (alt26) {
                             case 1 :
-                                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:32: EXPONENT
+                                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2075:32: EXPONENT
                                 {
                                 mEXPONENT(); if (this.state.failed) return ;
 
@@ -3741,10 +3741,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2043:4: '.' ( '0' .. '9' )+ ( EXPONENT )?
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2076:4: '.' ( '0' .. '9' )+ ( EXPONENT )?
                         {
                         match(46); if (this.state.failed) return ;
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2043:8: ( '0' .. '9' )+
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2076:8: ( '0' .. '9' )+
                         var cnt27:int=0;
                         loop27:
                         do {
@@ -3758,7 +3758,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                             switch (alt27) {
                         	case 1 :
-                        	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2043:9: '0' .. '9'
+                        	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2076:9: '0' .. '9'
                         	    {
                         	    matchRange(48,57); if (this.state.failed) return ;
 
@@ -3774,7 +3774,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                             cnt27++;
                         } while (true);
 
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2043:20: ( EXPONENT )?
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2076:20: ( EXPONENT )?
                         var alt28:int=2;
                         var LA28_0:int = input.LA(1);
 
@@ -3783,7 +3783,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         }
                         switch (alt28) {
                             case 1 :
-                                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2043:20: EXPONENT
+                                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2076:20: EXPONENT
                                 {
                                 mEXPONENT(); if (this.state.failed) return ;
 
@@ -3810,10 +3810,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = WS;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2047:4: ( ( ' ' | '\\t' | '\\f' )+ )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2047:6: ( ' ' | '\\t' | '\\f' )+
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2080:4: ( ( ' ' | '\\t' | '\\f' )+ )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2080:6: ( ' ' | '\\t' | '\\f' )+
                 {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2047:6: ( ' ' | '\\t' | '\\f' )+
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2080:6: ( ' ' | '\\t' | '\\f' )+
                 var cnt30:int=0;
                 loop30:
                 do {
@@ -3827,7 +3827,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt30) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
                 	    {
                 	    if ( input.LA(1)==9||input.LA(1)==12||input.LA(1)==32 ) {
                 	        input.consume();
@@ -3870,10 +3870,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = EOL;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2056:2: ( ( '\\r' '\\n' | '\\r' | '\\n' ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2056:4: ( '\\r' '\\n' | '\\r' | '\\n' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2089:2: ( ( '\\r' '\\n' | '\\r' | '\\n' ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2089:4: ( '\\r' '\\n' | '\\r' | '\\n' )
                 {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2056:4: ( '\\r' '\\n' | '\\r' | '\\n' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2089:4: ( '\\r' '\\n' | '\\r' | '\\n' )
                 var alt31:int=3;
                 var LA31_0:int = input.LA(1);
 
@@ -3896,7 +3896,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt31) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2057:4: '\\r' '\\n'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2090:4: '\\r' '\\n'
                         {
                         match(13); if (this.state.failed) return ;
                         match(10); if (this.state.failed) return ;
@@ -3904,14 +3904,14 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2058:5: '\\r'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2091:5: '\\r'
                         {
                         match(13); if (this.state.failed) return ;
 
                         }
                         break;
                     case 3 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2059:5: '\\n'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2092:5: '\\n'
                         {
                         match(10); if (this.state.failed) return ;
 
@@ -3939,10 +3939,10 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = BOM;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:5: ( ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:7: ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2098:5: ( ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2098:7: ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' )
                 {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:7: ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2098:7: ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' )
                 var alt32:int=2;
                 var LA32_0:int = input.LA(1);
 
@@ -3959,7 +3959,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt32) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:9: '\\u00EF' '\\u00BB' '\\u00BF'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2098:9: '\\u00EF' '\\u00BB' '\\u00BF'
                         {
                         match(239); if (this.state.failed) return ;
                         match(187); if (this.state.failed) return ;
@@ -3968,7 +3968,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2066:5: '\\uFEFF'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2099:5: '\\uFEFF'
                         {
                         match(65279); if (this.state.failed) return ;
 
@@ -3996,12 +3996,12 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = SL_COMMENT;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:2: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )? )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:4: '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )?
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:2: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )? )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:4: '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )?
                 {
                 matchString("//"); if (this.state.failed) return ;
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:9: (~ ( '\\n' | '\\r' ) )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:9: (~ ( '\\n' | '\\r' ) )*
                 loop33:
                 do {
                     var alt33:int=2;
@@ -4014,7 +4014,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt33) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:10: ~ ( '\\n' | '\\r' )
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:10: ~ ( '\\n' | '\\r' )
                 	    {
                 	    if ( (input.LA(1)>=0 && input.LA(1)<=9)||(input.LA(1)>=11 && input.LA(1)<=12)||(input.LA(1)>=14 && input.LA(1)<=65535) ) {
                 	        input.consume();
@@ -4034,7 +4034,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                     }
                 } while (true);
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:25: ( '\\n' | '\\r' ( '\\n' )? )?
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:25: ( '\\n' | '\\r' ( '\\n' )? )?
                 var alt35:int=3;
                 var LA35_0:int = input.LA(1);
 
@@ -4046,17 +4046,17 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt35) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:26: '\\n'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:26: '\\n'
                         {
                         match(10); if (this.state.failed) return ;
 
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:31: '\\r' ( '\\n' )?
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:31: '\\r' ( '\\n' )?
                         {
                         match(13); if (this.state.failed) return ;
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:35: ( '\\n' )?
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:35: ( '\\n' )?
                         var alt34:int=2;
                         var LA34_0:int = input.LA(1);
 
@@ -4065,7 +4065,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         }
                         switch (alt34) {
                             case 1 :
-                                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2072:36: '\\n'
+                                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:36: '\\n'
                                 {
                                 match(10); if (this.state.failed) return ;
 
@@ -4099,12 +4099,12 @@ package org.as3commons.asblocks.parser.antlr.as3 {
             try {
                 var _type:int = ML_COMMENT;
                 var _channel:int = DEFAULT_TOKEN_CHANNEL;
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2078:2: ( '/*' ( options {greedy=false; } : . )* '*/' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2078:4: '/*' ( options {greedy=false; } : . )* '*/'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2111:2: ( '/*' ( options {greedy=false; } : . )* '*/' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2111:4: '/*' ( options {greedy=false; } : . )* '*/'
                 {
                 matchString("/*"); if (this.state.failed) return ;
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2078:9: ( options {greedy=false; } : . )*
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2111:9: ( options {greedy=false; } : . )*
                 loop36:
                 do {
                     var alt36:int=2;
@@ -4129,7 +4129,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt36) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2078:37: .
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2111:37: .
                 	    {
                 	    matchAny(); if (this.state.failed) return ;
 
@@ -4160,8 +4160,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start EXPONENT
         public final function mEXPONENT():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2083:2: ( ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+ )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2083:4: ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2116:2: ( ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+ )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2116:4: ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+
                 {
                 if ( input.LA(1)==69||input.LA(1)==101 ) {
                     input.consume();
@@ -4172,7 +4172,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                     throw recover(new MismatchedSetException(null,input));
                 }
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2083:14: ( '+' | '-' )?
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2116:14: ( '+' | '-' )?
                 var alt37:int=2;
                 var LA37_0:int = input.LA(1);
 
@@ -4181,7 +4181,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt37) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
                         {
                         if ( input.LA(1)==43||input.LA(1)==45 ) {
                             input.consume();
@@ -4198,7 +4198,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                 }
 
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2083:25: ( '0' .. '9' )+
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2116:25: ( '0' .. '9' )+
                 var cnt38:int=0;
                 loop38:
                 do {
@@ -4212,7 +4212,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
                     switch (alt38) {
                 	case 1 :
-                	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2083:26: '0' .. '9'
+                	    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2116:26: '0' .. '9'
                 	    {
                 	    matchRange(48,57); if (this.state.failed) return ;
 
@@ -4240,8 +4240,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start HEX_DIGIT
         public final function mHEX_DIGIT():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2087:2: ( ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2087:4: ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2120:2: ( ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2120:4: ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )
                 {
                 if ( (input.LA(1)>=48 && input.LA(1)<=57)||(input.LA(1)>=65 && input.LA(1)<=70)||(input.LA(1)>=97 && input.LA(1)<=102) ) {
                     input.consume();
@@ -4264,8 +4264,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start OCT_DIGIT
         public final function mOCT_DIGIT():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2091:2: ( '0' .. '7' )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2091:4: '0' .. '7'
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2124:2: ( '0' .. '7' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2124:4: '0' .. '7'
                 {
                 matchRange(48,55); if (this.state.failed) return ;
 
@@ -4280,7 +4280,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start ESC
         public final function mESC():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2095:2: ( CTRLCHAR_ESC | UNICODE_ESC | OCTAL_ESC )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2128:2: ( CTRLCHAR_ESC | UNICODE_ESC | OCTAL_ESC )
                 var alt39:int=3;
                 var LA39_0:int = input.LA(1);
 
@@ -4329,21 +4329,21 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt39) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2095:4: CTRLCHAR_ESC
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2128:4: CTRLCHAR_ESC
                         {
                         mCTRLCHAR_ESC(); if (this.state.failed) return ;
 
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2096:4: UNICODE_ESC
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2129:4: UNICODE_ESC
                         {
                         mUNICODE_ESC(); if (this.state.failed) return ;
 
                         }
                         break;
                     case 3 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2097:4: OCTAL_ESC
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2130:4: OCTAL_ESC
                         {
                         mOCTAL_ESC(); if (this.state.failed) return ;
 
@@ -4360,8 +4360,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start CTRLCHAR_ESC
         public final function mCTRLCHAR_ESC():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2101:2: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2101:4: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2134:2: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2134:4: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
                 {
                 match(92); if (this.state.failed) return ;
                 if ( input.LA(1)==34||input.LA(1)==39||input.LA(1)==92||input.LA(1)==98||input.LA(1)==102||input.LA(1)==110||input.LA(1)==114||input.LA(1)==116 ) {
@@ -4385,7 +4385,7 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start OCTAL_ESC
         public final function mOCTAL_ESC():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:2: ( '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2138:2: ( '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) )
                 var alt40:int=3;
                 var LA40_0:int = input.LA(1);
 
@@ -4429,25 +4429,25 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                 }
                 switch (alt40) {
                     case 1 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:4: '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2138:4: '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' )
                         {
                         match(92); if (this.state.failed) return ;
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:9: ( '0' .. '3' )
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:10: '0' .. '3'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2138:9: ( '0' .. '3' )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2138:10: '0' .. '3'
                         {
                         matchRange(48,51); if (this.state.failed) return ;
 
                         }
 
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:20: ( '0' .. '7' )
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:21: '0' .. '7'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2138:20: ( '0' .. '7' )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2138:21: '0' .. '7'
                         {
                         matchRange(48,55); if (this.state.failed) return ;
 
                         }
 
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:31: ( '0' .. '7' )
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:32: '0' .. '7'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2138:31: ( '0' .. '7' )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2138:32: '0' .. '7'
                         {
                         matchRange(48,55); if (this.state.failed) return ;
 
@@ -4457,18 +4457,18 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         }
                         break;
                     case 2 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:4: '\\\\' ( '0' .. '7' ) ( '0' .. '7' )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2139:4: '\\\\' ( '0' .. '7' ) ( '0' .. '7' )
                         {
                         match(92); if (this.state.failed) return ;
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:9: ( '0' .. '7' )
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:10: '0' .. '7'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2139:9: ( '0' .. '7' )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2139:10: '0' .. '7'
                         {
                         matchRange(48,55); if (this.state.failed) return ;
 
                         }
 
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:20: ( '0' .. '7' )
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:21: '0' .. '7'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2139:20: ( '0' .. '7' )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2139:21: '0' .. '7'
                         {
                         matchRange(48,55); if (this.state.failed) return ;
 
@@ -4478,11 +4478,11 @@ package org.as3commons.asblocks.parser.antlr.as3 {
                         }
                         break;
                     case 3 :
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2107:4: '\\\\' ( '0' .. '7' )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2140:4: '\\\\' ( '0' .. '7' )
                         {
                         match(92); if (this.state.failed) return ;
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2107:9: ( '0' .. '7' )
-                        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2107:10: '0' .. '7'
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2140:9: ( '0' .. '7' )
+                        // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2140:10: '0' .. '7'
                         {
                         matchRange(48,55); if (this.state.failed) return ;
 
@@ -4502,8 +4502,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR start UNICODE_ESC
         public final function mUNICODE_ESC():void {
             try {
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2111:2: ( '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2111:4: '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2144:2: ( '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
+                // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2144:4: '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
                 {
                 match(92); if (this.state.failed) return ;
                 match(117); if (this.state.failed) return ;
@@ -4521,824 +4521,824 @@ package org.as3commons.asblocks.parser.antlr.as3 {
         // $ANTLR end UNICODE_ESC
 
         public override function mTokens():void {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:8: ( FINAL | OVERRIDE | INCLUDE | THROW | TRY | CATCH | FINALLY | VOID | INSTANCEOF | DELETE | TYPEOF | UNDEFINED | NATIVE | PACKAGE | PUBLIC | PRIVATE | PROTECTED | INTERNAL | FUNCTION | EXTENDS | IMPLEMENTS | VAR | STATIC | IF | IMPORT | FOR | EACH | IN | WHILE | DO | SWITCH | CASE | DEFAULT | ELSE | CONST | CLASS | INTERFACE | TRUE | FALSE | DYNAMIC | USE | NAMESPACE | IS | AS | GET | SET | WITH | RETURN | CONTINUE | BREAK | NULL | NEW | SUPER | THIS | QUESTION | LPAREN | RPAREN | LBRACK | RBRACK | LBRACE | RBRACE | COLON | DBL_COLON | COMMA | ASSIGN | EQUAL | STRICT_EQUAL | LNOT | BNOT | NOT_EQUAL | STRICT_NOT_EQUAL | PLUS | PLUS_ASSIGN | INC | MINUS | MINUS_ASSIGN | DEC | STAR | MOD | MOD_ASSIGN | GT | BXOR | BXOR_ASSIGN | BOR | BOR_ASSIGN | LOR | BAND | BAND_ASSIGN | LAND | LAND_ASSIGN | LOR_ASSIGN | E4X_ATTRI | SEMI | BSLASH | DOT | E4X_DESC | REST | DIV_ASSIGN | DIV | POST | SL | SL_ASSIGN | LE | LT | REGEXP_LITERAL | XML_LITERAL | IDENT | STRING_LITERAL | HEX_LITERAL | DECIMAL_LITERAL | OCTAL_LITERAL | FLOAT_LITERAL | WS | EOL | BOM | SL_COMMENT | ML_COMMENT )
+            // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:8: ( FINAL | OVERRIDE | INCLUDE | THROW | TRY | CATCH | FINALLY | VOID | INSTANCEOF | DELETE | TYPEOF | UNDEFINED | NATIVE | PACKAGE | PUBLIC | PRIVATE | PROTECTED | INTERNAL | FUNCTION | EXTENDS | IMPLEMENTS | VAR | STATIC | IF | IMPORT | FOR | EACH | IN | WHILE | DO | SWITCH | CASE | DEFAULT | ELSE | CONST | CLASS | INTERFACE | TRUE | FALSE | DYNAMIC | USE | NAMESPACE | IS | AS | GET | SET | WITH | RETURN | CONTINUE | BREAK | NULL | NEW | SUPER | THIS | QUESTION | LPAREN | RPAREN | LBRACK | RBRACK | LBRACE | RBRACE | COLON | DBL_COLON | COMMA | ASSIGN | EQUAL | STRICT_EQUAL | LNOT | BNOT | NOT_EQUAL | STRICT_NOT_EQUAL | PLUS | PLUS_ASSIGN | INC | MINUS | MINUS_ASSIGN | DEC | STAR | MOD | MOD_ASSIGN | GT | BXOR | BXOR_ASSIGN | BOR | BOR_ASSIGN | LOR | BAND | BAND_ASSIGN | LAND | LAND_ASSIGN | LOR_ASSIGN | E4X_ATTRI | SEMI | BSLASH | DOT | E4X_DESC | REST | DIV_ASSIGN | DIV | POST | SL | SL_ASSIGN | LE | LT | REGEXP_LITERAL | XML_LITERAL | IDENT | STRING_LITERAL | HEX_LITERAL | DECIMAL_LITERAL | OCTAL_LITERAL | FLOAT_LITERAL | WS | EOL | BOM | SL_COMMENT | ML_COMMENT )
             var alt41:int=117;
             alt41 = dfa41.predict(input);
             switch (alt41) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:10: FINAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:10: FINAL
                     {
                     mFINAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:16: OVERRIDE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:16: OVERRIDE
                     {
                     mOVERRIDE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:25: INCLUDE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:25: INCLUDE
                     {
                     mINCLUDE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:33: THROW
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:33: THROW
                     {
                     mTHROW(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:39: TRY
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:39: TRY
                     {
                     mTRY(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:43: CATCH
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:43: CATCH
                     {
                     mCATCH(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:49: FINALLY
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:49: FINALLY
                     {
                     mFINALLY(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:57: VOID
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:57: VOID
                     {
                     mVOID(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:62: INSTANCEOF
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:62: INSTANCEOF
                     {
                     mINSTANCEOF(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:73: DELETE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:73: DELETE
                     {
                     mDELETE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 11 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:80: TYPEOF
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:80: TYPEOF
                     {
                     mTYPEOF(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 12 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:87: UNDEFINED
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:87: UNDEFINED
                     {
                     mUNDEFINED(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 13 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:97: NATIVE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:97: NATIVE
                     {
                     mNATIVE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 14 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:104: PACKAGE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:104: PACKAGE
                     {
                     mPACKAGE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 15 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:112: PUBLIC
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:112: PUBLIC
                     {
                     mPUBLIC(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 16 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:119: PRIVATE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:119: PRIVATE
                     {
                     mPRIVATE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 17 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:127: PROTECTED
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:127: PROTECTED
                     {
                     mPROTECTED(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 18 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:137: INTERNAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:137: INTERNAL
                     {
                     mINTERNAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 19 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:146: FUNCTION
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:146: FUNCTION
                     {
                     mFUNCTION(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 20 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:155: EXTENDS
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:155: EXTENDS
                     {
                     mEXTENDS(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 21 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:163: IMPLEMENTS
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:163: IMPLEMENTS
                     {
                     mIMPLEMENTS(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 22 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:174: VAR
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:174: VAR
                     {
                     mVAR(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 23 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:178: STATIC
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:178: STATIC
                     {
                     mSTATIC(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 24 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:185: IF
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:185: IF
                     {
                     mIF(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 25 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:188: IMPORT
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:188: IMPORT
                     {
                     mIMPORT(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 26 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:195: FOR
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:195: FOR
                     {
                     mFOR(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 27 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:199: EACH
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:199: EACH
                     {
                     mEACH(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 28 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:204: IN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:204: IN
                     {
                     mIN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 29 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:207: WHILE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:207: WHILE
                     {
                     mWHILE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 30 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:213: DO
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:213: DO
                     {
                     mDO(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 31 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:216: SWITCH
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:216: SWITCH
                     {
                     mSWITCH(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 32 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:223: CASE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:223: CASE
                     {
                     mCASE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 33 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:228: DEFAULT
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:228: DEFAULT
                     {
                     mDEFAULT(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 34 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:236: ELSE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:236: ELSE
                     {
                     mELSE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 35 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:241: CONST
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:241: CONST
                     {
                     mCONST(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 36 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:247: CLASS
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:247: CLASS
                     {
                     mCLASS(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 37 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:253: INTERFACE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:253: INTERFACE
                     {
                     mINTERFACE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 38 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:263: TRUE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:263: TRUE
                     {
                     mTRUE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 39 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:268: FALSE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:268: FALSE
                     {
                     mFALSE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 40 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:274: DYNAMIC
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:274: DYNAMIC
                     {
                     mDYNAMIC(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 41 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:282: USE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:282: USE
                     {
                     mUSE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 42 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:286: NAMESPACE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:286: NAMESPACE
                     {
                     mNAMESPACE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 43 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:296: IS
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:296: IS
                     {
                     mIS(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 44 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:299: AS
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:299: AS
                     {
                     mAS(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 45 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:302: GET
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:302: GET
                     {
                     mGET(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 46 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:306: SET
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:306: SET
                     {
                     mSET(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 47 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:310: WITH
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:310: WITH
                     {
                     mWITH(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 48 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:315: RETURN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:315: RETURN
                     {
                     mRETURN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 49 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:322: CONTINUE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:322: CONTINUE
                     {
                     mCONTINUE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 50 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:331: BREAK
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:331: BREAK
                     {
                     mBREAK(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 51 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:337: NULL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:337: NULL
                     {
                     mNULL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 52 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:342: NEW
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:342: NEW
                     {
                     mNEW(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 53 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:346: SUPER
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:346: SUPER
                     {
                     mSUPER(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 54 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:352: THIS
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:352: THIS
                     {
                     mTHIS(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 55 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:357: QUESTION
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:357: QUESTION
                     {
                     mQUESTION(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 56 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:366: LPAREN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:366: LPAREN
                     {
                     mLPAREN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 57 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:373: RPAREN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:373: RPAREN
                     {
                     mRPAREN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 58 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:380: LBRACK
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:380: LBRACK
                     {
                     mLBRACK(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 59 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:387: RBRACK
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:387: RBRACK
                     {
                     mRBRACK(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 60 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:394: LBRACE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:394: LBRACE
                     {
                     mLBRACE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 61 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:401: RBRACE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:401: RBRACE
                     {
                     mRBRACE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 62 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:408: COLON
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:408: COLON
                     {
                     mCOLON(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 63 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:414: DBL_COLON
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:414: DBL_COLON
                     {
                     mDBL_COLON(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 64 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:424: COMMA
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:424: COMMA
                     {
                     mCOMMA(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 65 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:430: ASSIGN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:430: ASSIGN
                     {
                     mASSIGN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 66 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:437: EQUAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:437: EQUAL
                     {
                     mEQUAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 67 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:443: STRICT_EQUAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:443: STRICT_EQUAL
                     {
                     mSTRICT_EQUAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 68 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:456: LNOT
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:456: LNOT
                     {
                     mLNOT(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 69 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:461: BNOT
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:461: BNOT
                     {
                     mBNOT(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 70 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:466: NOT_EQUAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:466: NOT_EQUAL
                     {
                     mNOT_EQUAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 71 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:476: STRICT_NOT_EQUAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:476: STRICT_NOT_EQUAL
                     {
                     mSTRICT_NOT_EQUAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 72 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:493: PLUS
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:493: PLUS
                     {
                     mPLUS(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 73 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:498: PLUS_ASSIGN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:498: PLUS_ASSIGN
                     {
                     mPLUS_ASSIGN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 74 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:510: INC
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:510: INC
                     {
                     mINC(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 75 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:514: MINUS
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:514: MINUS
                     {
                     mMINUS(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 76 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:520: MINUS_ASSIGN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:520: MINUS_ASSIGN
                     {
                     mMINUS_ASSIGN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 77 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:533: DEC
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:533: DEC
                     {
                     mDEC(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 78 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:537: STAR
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:537: STAR
                     {
                     mSTAR(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 79 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:542: MOD
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:542: MOD
                     {
                     mMOD(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 80 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:546: MOD_ASSIGN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:546: MOD_ASSIGN
                     {
                     mMOD_ASSIGN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 81 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:557: GT
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:557: GT
                     {
                     mGT(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 82 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:560: BXOR
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:560: BXOR
                     {
                     mBXOR(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 83 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:565: BXOR_ASSIGN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:565: BXOR_ASSIGN
                     {
                     mBXOR_ASSIGN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 84 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:577: BOR
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:577: BOR
                     {
                     mBOR(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 85 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:581: BOR_ASSIGN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:581: BOR_ASSIGN
                     {
                     mBOR_ASSIGN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 86 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:592: LOR
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:592: LOR
                     {
                     mLOR(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 87 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:596: BAND
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:596: BAND
                     {
                     mBAND(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 88 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:601: BAND_ASSIGN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:601: BAND_ASSIGN
                     {
                     mBAND_ASSIGN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 89 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:613: LAND
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:613: LAND
                     {
                     mLAND(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 90 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:618: LAND_ASSIGN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:618: LAND_ASSIGN
                     {
                     mLAND_ASSIGN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 91 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:630: LOR_ASSIGN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:630: LOR_ASSIGN
                     {
                     mLOR_ASSIGN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 92 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:641: E4X_ATTRI
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:641: E4X_ATTRI
                     {
                     mE4X_ATTRI(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 93 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:651: SEMI
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:651: SEMI
                     {
                     mSEMI(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 94 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:656: BSLASH
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:656: BSLASH
                     {
                     mBSLASH(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 95 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:663: DOT
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:663: DOT
                     {
                     mDOT(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 96 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:667: E4X_DESC
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:667: E4X_DESC
                     {
                     mE4X_DESC(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 97 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:676: REST
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:676: REST
                     {
                     mREST(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 98 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:681: DIV_ASSIGN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:681: DIV_ASSIGN
                     {
                     mDIV_ASSIGN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 99 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:692: DIV
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:692: DIV
                     {
                     mDIV(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 100 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:696: POST
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:696: POST
                     {
                     mPOST(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 101 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:701: SL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:701: SL
                     {
                     mSL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 102 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:704: SL_ASSIGN
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:704: SL_ASSIGN
                     {
                     mSL_ASSIGN(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 103 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:714: LE
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:714: LE
                     {
                     mLE(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 104 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:717: LT
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:717: LT
                     {
                     mLT(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 105 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:720: REGEXP_LITERAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:720: REGEXP_LITERAL
                     {
                     mREGEXP_LITERAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 106 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:735: XML_LITERAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:735: XML_LITERAL
                     {
                     mXML_LITERAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 107 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:747: IDENT
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:747: IDENT
                     {
                     mIDENT(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 108 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:753: STRING_LITERAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:753: STRING_LITERAL
                     {
                     mSTRING_LITERAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 109 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:768: HEX_LITERAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:768: HEX_LITERAL
                     {
                     mHEX_LITERAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 110 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:780: DECIMAL_LITERAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:780: DECIMAL_LITERAL
                     {
                     mDECIMAL_LITERAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 111 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:796: OCTAL_LITERAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:796: OCTAL_LITERAL
                     {
                     mOCTAL_LITERAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 112 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:810: FLOAT_LITERAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:810: FLOAT_LITERAL
                     {
                     mFLOAT_LITERAL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 113 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:824: WS
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:824: WS
                     {
                     mWS(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 114 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:827: EOL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:827: EOL
                     {
                     mEOL(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 115 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:831: BOM
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:831: BOM
                     {
                     mBOM(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 116 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:835: SL_COMMENT
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:835: SL_COMMENT
                     {
                     mSL_COMMENT(); if (this.state.failed) return ;
 
                     }
                     break;
                 case 117 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:846: ML_COMMENT
+                    // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:846: ML_COMMENT
                     {
                     mML_COMMENT(); if (this.state.failed) return ;
 
@@ -5351,8 +5351,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
         // $ANTLR start synpred2_AS3
         public final function synpred2_AS3_fragment():void {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1750:6: ( '/' ~ '>' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1750:7: '/' ~ '>'
+            // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1783:6: ( '/' ~ '>' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1783:7: '/' ~ '>'
             {
             match(47); if (this.state.failed) return ;
             if ( (input.LA(1)>=0 && input.LA(1)<=61)||(input.LA(1)>=63 && input.LA(1)<=65535) ) {
@@ -5371,8 +5371,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
         // $ANTLR start synpred3_AS3
         public final function synpred3_AS3_fragment():void {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1760:5: ( '-' ~ '-' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1760:6: '-' ~ '-'
+            // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1793:5: ( '-' ~ '-' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1793:6: '-' ~ '-'
             {
             match(45); if (this.state.failed) return ;
             if ( (input.LA(1)>=0 && input.LA(1)<=44)||(input.LA(1)>=46 && input.LA(1)<=65535) ) {
@@ -5391,8 +5391,8 @@ package org.as3commons.asblocks.parser.antlr.as3 {
 
         // $ANTLR start synpred4_AS3
         public final function synpred4_AS3_fragment():void {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:12: ( ']' ~ ']' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\as-blocks\\as3commons-asblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:13: ']' ~ ']'
+            // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1801:12: ( ']' ~ ']' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\as-blocks-project\\as3-commons-asblocks\\src\\main\\actionscript\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1801:13: ']' ~ ']'
             {
             match(93); if (this.state.failed) return ;
             if ( (input.LA(1)>=0 && input.LA(1)<=92)||(input.LA(1)>=94 && input.LA(1)<=65535) ) {
