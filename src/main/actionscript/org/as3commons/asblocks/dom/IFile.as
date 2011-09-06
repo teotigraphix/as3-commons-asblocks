@@ -31,5 +31,7 @@ public interface IFile
 	function get nativePath():String;
 	
 	function get isDirectory():Boolean;
+	
+	function getDirectoryListing():Array;
 }
 }

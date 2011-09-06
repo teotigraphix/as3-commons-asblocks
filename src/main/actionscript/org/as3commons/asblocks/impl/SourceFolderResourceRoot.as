@@ -20,8 +20,6 @@
 package org.as3commons.asblocks.impl
 {
 
-import flash.filesystem.File;
-
 import org.as3commons.asblocks.dom.ASQName;
 import org.as3commons.asblocks.dom.IFile;
 import org.as3commons.asblocks.dom.IResourceRoot;
@@ -75,12 +73,12 @@ public class SourceFolderResourceRoot implements IResourceRoot
 	{
 		if (StringUtils.endsWith(file, ".as"))
 		{
-			var typeName:String = file.replace(File.separator, '.').substring(0, file.length - 3);
+			var typeName:String = file.replace(FileUtil.separator, '.').substring(0, file.length - 3);
 			return new ASQName(typeName);
 		}
 		else if (StringUtils.endsWith(file, ".mxml"))
 		{
-			var mtypeName:String = file.replace(File.separator, '.').substring(0, file.length - 5);
+			var mtypeName:String = file.replace(FileUtil.separator, '.').substring(0, file.length - 5);
 			var proxy:IFile = FileUtil.newFile(path.nativePath);
 			return new FXQname(mtypeName, proxy);
 		}
@@ -89,11 +87,11 @@ public class SourceFolderResourceRoot implements IResourceRoot
 
 	private function loadQNames(subfolder:String, result:IList):void
 	{
-		var here:File = new File(subfolder + File.separator + path);
+		var here:IFile = FileUtil.newFile(subfolder + FileUtil.separator + path);
 		var list:Array = here.getDirectoryListing();
 		for (var i:int = 0; i < list.length; i++)
 		{
-			var entry:File = list[i];
+			var entry:IFile = list[i];
 			var name:String = entry.name;
 			var newname:String;
 			if (subfolder.length == 0)
@@ -102,7 +100,7 @@ public class SourceFolderResourceRoot implements IResourceRoot
 			}
 			else
 			{
-				newname = subfolder + File.separator + name;
+				newname = subfolder + FileUtil.separator + name;
 			}
 			if (entry.isDirectory)
 			{

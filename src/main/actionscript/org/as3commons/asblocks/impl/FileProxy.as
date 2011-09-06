@@ -36,5 +36,10 @@ public class FileProxy implements IFile
 	{
 		this.file = file;
 	}
+	
+	public function getDirectoryListing():Array
+	{
+		return file.getDirectoryListing();
+	}
 }
 }
