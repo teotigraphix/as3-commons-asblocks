@@ -97,7 +97,7 @@ public class ASTASProject implements IASProject
 	
 	public function getSourcePathResourceRoots():IList
 	{
-		return Lists.newArrayList(classPathResourceRoots.toArray());
+		return Lists.newArrayList(sourcePathResourceRoots.toArray());
 	}
 	
 	public function getFile(file:IFile):IASFile

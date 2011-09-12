@@ -30,23 +30,11 @@ import org.as3commons.asblocks.dom.IFile;
  */
 public class FXQname extends ASQName
 {
-	private var classPath:IFile;
-
-	public function getClassPath():IFile
-	{
-		return classPath;
-	}
-
-	public function setClassPath(classPath:IFile):void
-	{
-		this.classPath = classPath;
-	}
-	
 	public function FXQname(qname:String, classPath:IFile = null)
 	{
 		super(qname);
 		
-		this.classPath = classPath;
+		setClassPath(classPath.nativePath);
 	}
 
 }

@@ -77,6 +77,18 @@ public class ASQName
 	private var fragmentName:String = null;
 	private var fragmentType:String = null;
 
+	private var mClassPath:String;
+	
+	public function getClassPath():String
+	{
+		return mClassPath;
+	}
+	
+	public function setClassPath(value:String):void
+	{
+		this.mClassPath = value;
+	}	
+	
 	public function ASQName(qname:String)
 	{
 		if (qname == null)
