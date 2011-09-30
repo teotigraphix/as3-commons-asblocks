@@ -119,28 +119,34 @@ public class MetaTagUtils
 	public static function newMetaTag(ast:LinkedListTree, name:String):IASMetaTag
 	{
 		var tag:LinkedListTree = ASTBuilder.newMetadataTag(name);
-
+		var annotations:LinkedListTree = null;
+		
 		if (isType(ast))
 		{
-			var annotationss:LinkedListTree = findTags(ast);
-			ASTUtils.addParenChildWithIndentation(annotationss, tag);
+			annotations = findTags(ast);
+			ASTUtils.addParenChildWithIndentation(annotations, tag);
 			return toMetaTag(tag);
 		}
-
+		
+		annotations = findTags(ast);
+		
 		var trailingnl:LinkedListToken = TokenBuilder.newNewline();
-		tag.getStopToken().appendToken(trailingnl);
-		tag.setStopToken(trailingnl);
-
+		// if there is only one child, the nl will fall after the annotations
+		// container, so the annos need it's stop token adjusted
+		var stop:LinkedListTree = (annotations.childCount == 1) ? annotations : tag;
+		
+		stop.getStopToken().appendToken(trailingnl);
+		stop.setStopToken(trailingnl);
+		
 		var indent:String = ASTUtils.findIndent(ast);
 		if (indent.length > 0)
 		{
-			var stopToken:LinkedListToken = tag.getStopToken();
+			var stopToken:LinkedListToken = stop.getStopToken();
 			var indentTok:LinkedListToken = TokenBuilder.newWhiteSpace(indent);
 			stopToken.appendToken(indentTok);
-			tag.setStopToken(indentTok);
+			stop.setStopToken(indentTok);
 		}
-
-		var annotations:LinkedListTree = findTags(ast);
+		
 		annotations.addChildWithTokens(tag);
 		return toMetaTag(tag);
 	}
