@@ -9,6 +9,7 @@ import org.as3commons.asblocks.parser.antlr.asdoc.ASDocParser;
 import org.as3commons.collections.ArrayList;
 import org.as3commons.collections.framework.IIterator;
 import org.as3commons.collections.framework.IList;
+import org.as3commons.lang.StringUtils;
 
 public class ASTDocComment extends ASTScriptElement implements IDocComment
 {
@@ -126,8 +127,7 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 		var para:LinkedListTree;
 		while ((para = i.search(ASDocParser.PARA_TAG)) != null)
 		{
-			var tag:LinkedListTree = para.getFirstChild();
-			if (tag.text == tagname)
+			if (nameText(para) == tagname)
 				return true;
 
 		}
@@ -163,8 +163,7 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 		var para:LinkedListTree;
 		while ((para = i.search(ASDocParser.PARA_TAG)) != null)
 		{
-			var tag:LinkedListTree = para.getFirstChild();
-			if (tag.text == tagname)
+			if (nameText(para) == tagname)
 			{
 				tags.add(new ASTDocTag(this, para));
 			}
@@ -183,8 +182,7 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 		var para:LinkedListTree;
 		while ((para = i.search(ASDocParser.PARA_TAG)) != null)
 		{
-			var tag:LinkedListTree = para.getFirstChild();
-			if (tag.text == tagname)
+			if (nameText(para) == tagname)
 			{
 				return new ASTDocTag(this, para);
 			}
@@ -227,6 +225,12 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 	private static function tagName(name:String):String
 	{
 		return "@" + name;
+	}
+	
+	private static function nameText(para:LinkedListTree):String
+	{
+		var v:String = StringUtils.trim(para.getFirstChild().text);
+		return v;
 	}
 }
 }

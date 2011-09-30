@@ -137,6 +137,9 @@ public class ASTASParameter extends ASTScriptElement implements IASParameter
 		var type:String = getType();
 		if (type == null)
 		{
+			var name:String = getName();
+			if (ast.childCount == 2)
+				return name + "=" + ast.children[1].text;
 			return getName();
 		}
 		return getName() + ":" + type;

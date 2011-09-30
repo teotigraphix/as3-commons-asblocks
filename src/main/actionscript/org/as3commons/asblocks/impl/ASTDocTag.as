@@ -25,6 +25,7 @@ import org.as3commons.asblocks.parser.antlr.LinkedListToken;
 import org.as3commons.asblocks.parser.antlr.LinkedListTree;
 import org.as3commons.asblocks.parser.antlr.asdoc.ASDocParser;
 import org.as3commons.lang.StringBuffer;
+import org.as3commons.lang.StringUtils;
 
 public class ASTDocTag implements IDocTag
 {
@@ -45,7 +46,7 @@ public class ASTDocTag implements IDocTag
 		
 	public function getName():String
 	{
-		return ast.getStartToken().text.substring(1);
+		return StringUtils.trim(ast.getStartToken().text).substring(1);
 	}
 	
 	public function setName(value:String):void
