@@ -669,14 +669,14 @@ public class ASTUtils
 	
 	public static function stringifyNode(ast:LinkedListTree):String
 	{
-		var result:String = "";
+		var result:Array = [];
 		for (var tok:LinkedListToken=ast.getStartToken(); tok!=null&&tok.type!=-1; tok=tok.getNext())
 		{
-			result += tok.text;
+			result[result.length] = tok.text;
 			if (tok == ast.getStopToken())
 				break;
 		}
-		return result.toString();
+		return result.join('');
 	}
 	
 	public static function deleteAllChildren(ast:LinkedListTree):void
